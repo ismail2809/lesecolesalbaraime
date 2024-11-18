@@ -21,7 +21,7 @@
         <div class="notice-board py-120">
             <div class="container">
                 <div class="notice-wrap"> 
-                    <div class="notice-item">
+                    <div class="row notice-item">
                         <a href="{{ asset('assets/fournitures/1ere_annee_du_primaire.pdf') }}">
                         <h4>1ère Année du primaire</h4>
                         <div class="notice-meta">
@@ -30,7 +30,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="notice-item">
+                    <div class="row notice-item">
                         <a href="{{ asset('assets/fournitures/2eme_annee_du_primaire.pdf') }}">
                         <h4>2ère Année du primaire</h4>
                         <div class="notice-meta">
@@ -39,7 +39,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="notice-item">
+                    <div class="row notice-item">
                         <a href="{{ asset('assets/fournitures/3eme_annee_du_primaire.pdf') }}">
                         <h4>3ère Année du primaire</h4>
                         <div class="notice-meta">
@@ -48,7 +48,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="notice-item">
+                    <div class="row notice-item">
                         <a href="{{ asset('assets/fournitures/4eme_annee_du_primaire.pdf') }}">
                         <h4>4ère Année du primaire</h4>
                         <div class="notice-meta">
@@ -57,7 +57,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="notice-item">
+                    <div class="row notice-item">
                         <a href="{{ asset('assets/fournitures/5eme_annee_du_primaire.pdf') }}">
                         <h4>5ère Année du primaire</h4>
                         <div class="notice-meta">
@@ -66,7 +66,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="notice-item">
+                    <div class="row notice-item">
                         <a href="{{ asset('assets/fournitures/6eme_annee_du_primaire.pdf') }}">
                         <h4>6ère Année du primaire</h4>
                         <div class="notice-meta">
@@ -75,7 +75,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="notice-item">
+                    <div class="row notice-item">
                         <a href="{{ asset('assets/fournitures/1ere_annee_du_college_parcours_international.pdf') }}">
                         <h4>1ère Année du collège – Parcours International </h4>
                         <div class="notice-meta">
@@ -84,7 +84,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="notice-item">
+                    <div class="row notice-item">
                         <a href="{{ asset('assets/fournitures/2eme_annee_du_college_parcours_international.pdf') }}">
                         <h4>2ère Année du collège – Parcours International </h4>
                         <div class="notice-meta">
@@ -93,7 +93,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="notice-item">
+                    <div class="row notice-item">
                         <a href="{{ asset('assets/fournitures/3eme_annee_du_college_parcours_international.pdf') }}">
                         <h4>3ère Année du collège – Parcours International </h4>
                         <div class="notice-meta">
@@ -102,7 +102,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="notice-item">
+                    <div class="row notice-item">
                         <a href="{{ asset('assets/fournitures/tronc_commun_scientifiques_parcours_international.pdf') }}">
                         <h4>Tronc Commun Scientifiques – Parcours International </h4>
                         <div class="notice-meta">
@@ -111,7 +111,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="notice-item">
+                    <div class="row notice-item">
                         <a href="{{ asset('assets/fournitures/1ere_annee_du_baccalaureat_sciences_economiques_et_gestion_parcours_international.pdf') }}">
                         <h4>1ère Année du Baccalauréat Sciences Économiques et Gestion – Parcours International</h4>
                         <div class="notice-meta">
@@ -120,7 +120,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="notice-item">
+                    <div class="row notice-item">
                         <a href="{{ asset('assets/fournitures/1ere_annee_du_baccalaureat_sciences_maths_parcours_international.pdf') }}">
                         <h4>1ère Année du Baccalauréat Sciences Maths – Parcours International </h4>
                         <div class="notice-meta">
@@ -129,7 +129,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="notice-item">
+                    <div class="row notice-item">
                         <a href="{{ asset('assets/fournitures/2eme_annee_du_baccalaureat_sciences_physiques_.pdf') }}">
                         <h4>2ème Année du Baccalauréat Sciences Physiques – Parcours International</h4>
                         <div class="notice-meta">
@@ -138,7 +138,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="notice-item">
+                    <div class="row notice-item">
                         <a href="{{ asset('assets/fournitures/2eme_annee_du_baccalaureat_sciences_maths_a_parcours_international.pdf') }}">
                         <h4>2ème Année du Baccalauréat Sciences Maths A – Parcours International</h4>
                         <div class="notice-meta">

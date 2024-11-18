@@ -70,30 +70,30 @@
                             <h2 class="text-center">Vous avez des questions ?</h2>
                             <p class="text-center">Contactez-nous !</p>
                         </div>
-                        <form method="post" action="https://live.themewild.com/eduka/assets/php/contact.php" id="contact-form">
+                        <form method="post" action="#" id="contact-form">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <input type="text" class="form-control" name="name"
-                                            placeholder="Your Name" required>
+                                            placeholder="Votre Nom" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <input type="email" class="form-control" name="email"
-                                            placeholder="Your Email" required>
+                                            placeholder="Votre Email" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control" name="subject"
-                                    placeholder="Your Subject" required>
+                                    placeholder="Votre Sujet" required>
                             </div>
                             <div class="form-group">
                                 <textarea name="message" cols="30" rows="5" class="form-control"
-                                    placeholder="Write Your Message"></textarea>
+                                    placeholder="Écrivez votre message"></textarea>
                             </div>
-                            <button type="submit" class="theme-btn">Send
+                            <button type="submit" class="theme-btn">Envoyer
                                 Message <i class="far fa-paper-plane"></i></button>
                             <div class="col-md-12 mt-3">
                                 <div class="form-messege text-success"></div>

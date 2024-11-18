@@ -8,20 +8,39 @@
                         <div class="col-md-12 col-lg-8 mx-auto">
                             <div class="hero-content text-center">
                                 <h6 class="hero-sub-title" data-animation="fadeInDown" data-delay=".25s">
-                                    <i class="far fa-book-open-reader"></i>Welcome To Eduka!
+                                    <i class="far fa-book-open-reader"></i>Bienvenue chez
                                 </h6>
                                 <h1 class="hero-title" data-animation="fadeInRight" data-delay=".50s">
-                                    Start Your Beautiful And <span>Bright</span> Future
+                                    Les écoles <span>AlBaraime</span> Privée
                                 </h1>
                                 <p data-animation="fadeInLeft" data-delay=".75s">
-                                    There are many variations of passages orem psum available but the majority have
-                                    suffered alteration in some repeat predefined chunks form
-                                    injected humour.
+                                    Préscolaire, Primaire, Collège & Lycée
                                 </p>
                                 <div class="hero-btn justify-content-center" data-animation="fadeInUp" data-delay="1s">
-                                    <a href="about.html" class="theme-btn">About More<i
+                                    <a href="contact.html" class="theme-btn theme-btn2">Découvrir<i
                                             class="fas fa-arrow-right-long"></i></a>
-                                    <a href="contact.html" class="theme-btn theme-btn2">Learn More<i
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-single" style="background: url({{ asset('assets/img/slider/slider-2.jpg') }})">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-12 col-lg-8 mx-auto">
+                            <div class="hero-content text-center">
+                                <h6 class="hero-sub-title" data-animation="fadeInDown" data-delay=".25s">
+                                    <i class="far fa-book-open-reader"></i>Bienvenue chez
+                                </h6>
+                                <h1 class="hero-title" data-animation="fadeInRight" data-delay=".50s">
+                                    Les écoles <span>AlBaraime</span>
+                                </h1>
+                                <p data-animation="fadeInLeft" data-delay=".75s">
+                                    De la Maternelle au Lycée, l'Excellence à Chaque Étape.
+                                </p>
+                                <div class="hero-btn justify-content-center" data-animation="fadeInUp" data-delay="1s">
+                                    <a href="contact.html" class="theme-btn theme-btn2">Découvrir<i
                                             class="fas fa-arrow-right-long"></i></a>
                                 </div>
                             </div>
@@ -35,47 +54,16 @@
                         <div class="col-md-12 col-lg-8 mx-auto">
                             <div class="hero-content text-center">
                                 <h6 class="hero-sub-title" data-animation="fadeInDown" data-delay=".25s">
-                                    <i class="far fa-book-open-reader"></i>Welcome To Eduka!
+                                    <i class="far fa-book-open-reader"></i>Bienvenue chez
                                 </h6>
                                 <h1 class="hero-title" data-animation="fadeInRight" data-delay=".50s">
-                                    Start Your Beautiful And <span>Bright</span> Future
+                                    Les écoles <span>AlBaraime</span>
                                 </h1>
                                 <p data-animation="fadeInLeft" data-delay=".75s">
-                                    There are many variations of passages orem psum available but the majority have
-                                    suffered alteration in some repeat predefined chunks form
-                                    injected humour.
+                                    De la Maternelle au Lycée, l'Excellence à Chaque Étape.
                                 </p>
                                 <div class="hero-btn justify-content-center" data-animation="fadeInUp" data-delay="1s">
-                                    <a href="about.html" class="theme-btn">About More<i
-                                            class="fas fa-arrow-right-long"></i></a>
-                                    <a href="contact.html" class="theme-btn theme-btn2">Learn More<i
-                                            class="fas fa-arrow-right-long"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="hero-single" style="background: url({{ asset('assets/img/slider/slider-3.jpg') }})">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-12 col-lg-8 mx-auto">
-                            <div class="hero-content text-center">
-                                <h6 class="hero-sub-title" data-animation="fadeInDown" data-delay=".25s">
-                                    <i class="far fa-book-open-reader"></i>Welcome To Eduka!
-                                </h6>
-                                <h1 class="hero-title" data-animation="fadeInRight" data-delay=".50s">
-                                    Start Your Beautiful And <span>Bright</span> Future
-                                </h1>
-                                <p data-animation="fadeInLeft" data-delay=".75s">
-                                    There are many variations of passages orem psum available but the majority have
-                                    suffered alteration in some repeat predefined chunks form
-                                    injected humour.
-                                </p>
-                                <div class="hero-btn justify-content-center" data-animation="fadeInUp" data-delay="1s">
-                                    <a href="about.html" class="theme-btn">About More<i
-                                            class="fas fa-arrow-right-long"></i></a>
-                                    <a href="contact.html" class="theme-btn theme-btn2">Learn More<i
+                                    <a href="contact.html" class="theme-btn theme-btn2">Découvrir<i
                                             class="fas fa-arrow-right-long"></i></a>
                                 </div>
                             </div>
@@ -102,7 +90,7 @@
                                         <div class="about-experience-icon">
                                             <img src="{{ asset('assets/img/icon/exchange-idea.svg') }}" alt="">
                                         </div>
-                                        <b class="text-start">30 Years Of <br> Quality Service</b>
+                                        <b class="text-start">25 Année <br> Qualité de service</b>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -116,15 +104,13 @@
                 <div class="col-lg-6">
                     <div class="about-right wow fadeInRight" data-wow-delay=".25s">
                         <div class="site-heading mb-3">
-                            <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> About Us</span>
+                            <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> A Propos</span>
                             <h2 class="site-title">
-                                Our Edukation System <span>Inspires</span> You More.
+                                Notre système éducatif vous <span>Inspire</span> encore.
                             </h2>
                         </div>
                         <p class="about-text">
-                            There are many variations of passages available but the majority have suffered
-                            alteration in some form by injected humour randomised words which don't look even
-                            slightly believable. If you are going to use passage.
+                            École Al Baraime repose sur une histoire riche de 25 ans d’enseignement privé au Maroc , plus précisément à Azemmour. Sa fondation a vu le jour avec la vision de Mohammed Hamamat. , un Juriste d’affaire et Journaliste qui a reconnu dans le temps un besoin éducatif spécifique dans notre communauté et a contribué en offrant une éducation de qualité durant toutes ces décennies.
                         </p>
                         <div class="about-content">
                             <div class="row">
@@ -134,8 +120,8 @@
                                             <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="">
                                         </div>
                                         <div class="about-item-content">
-                                            <h5>Edukation Services</h5>
-                                            <p>It is a long established fact that reader will to using content.</p>
+                                            <h5>Albaraime Services</h5>
+                                            <p>Enseignement de l'anglais dès la maternelle.</p>
                                         </div>
                                     </div>
                                     <div class="about-item">
@@ -143,8 +129,10 @@
                                             <img src="{{ asset('assets/img/icon/global-education.svg') }}" alt="">
                                         </div>
                                         <div class="about-item-content">
-                                            <h5>International Hubs</h5>
-                                            <p>It is a long established fact that reader will to using content.</p>
+                                            <h5>Enseignement trilingue</h5>
+                                            <p>Anglais ☑</p>
+                                            <p>Français ☑</p>
+                                            <p>Arabe ☑</p>
                                         </div>
                                     </div>
                                 </div>
@@ -157,441 +145,13 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="about-bottom">
-                            <a href="about.html" class="theme-btn">Discover More<i
-                                    class="fas fa-arrow-right-long"></i></a>
-                            <div class="about-phone">
-                                <div class="icon"><i class="fal fa-headset"></i></div>
-                                <div class="number">
-                                    <span>Call Now</span>
-                                    <h6><a href="tel:+21236547898">+2 123 654 7898</a></h6>
-                                </div>
-                            </div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- about area end -->
-
-
-    <!-- course-area -->
-    <div class="course-area bg pt-80 pb-80">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 mx-auto">
-                    <div class="site-heading text-center">
-                        <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Our Courses</span>
-                        <h2 class="site-title">Let's Check Our <span>Courses</span></h2>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of
-                            a page when looking at its layout.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <div class="course-item wow fadeInUp" data-wow-delay=".25s">
-                        <div class="course-img">
-                            <span class="course-tag"><i class="far fa-bookmark"></i> Drama</span>
-                            <img src="{{ asset('assets/img/course/01.jpg') }}" alt="">
-                            <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
-                        </div>
-                        <div class="course-content">
-                            <div class="course-meta">
-                                <span class="course-meta-left"><i class="far fa-book"></i> 10 Lessons</span>
-                                <div class="course-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <span>(4.0)</span>
-                                </div>
-                            </div>
-                            <h4 class="course-title">
-                                <a href="course-single.html">Acting And Drama</a>
-                            </h4>
-                            <p class="course-text">
-                                There are many variations of passages orem psum available but the majority have
-                                suffer alteration in some form by injected.
-                            </p>
-                            <div class="course-bottom">
-                                <div class="course-bottom-left">
-                                    <span><i class="far fa-users"></i>75 Seats</span>
-                                    <span><i class="far fa-clock"></i>04 Years</span>
-                                </div>
-                                <span class="course-price">$750</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="course-item wow fadeInUp" data-wow-delay=".50s">
-                        <div class="course-img">
-                            <span class="course-tag"><i class="far fa-bookmark"></i> Design</span>
-                            <img src="{{ asset('assets/img/course/02.jpg') }}" alt="">
-                            <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
-                        </div>
-                        <div class="course-content">
-                            <div class="course-meta">
-                                <span class="course-meta-left"><i class="far fa-book"></i> 10 Lessons</span>
-                                <div class="course-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <span>(4.0)</span>
-                                </div>
-                            </div>
-                            <h4 class="course-title">
-                                <a href="course-single.html">Art And Design</a>
-                            </h4>
-                            <p class="course-text">
-                                There are many variations of passages orem psum available but the majority have
-                                suffer alteration in some form by injected.
-                            </p>
-                            <div class="course-bottom">
-                                <div class="course-bottom-left">
-                                    <span><i class="far fa-users"></i>75 Seats</span>
-                                    <span><i class="far fa-clock"></i>04 Years</span>
-                                </div>
-                                <span class="course-price">$750</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="course-item wow fadeInUp" data-wow-delay=".75s">
-                        <div class="course-img">
-                            <span class="course-tag"><i class="far fa-bookmark"></i> Science</span>
-                            <img src="{{ asset('assets/img/course/03.jpg') }}" alt="">
-                            <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
-                        </div>
-                        <div class="course-content">
-                            <div class="course-meta">
-                                <span class="course-meta-left"><i class="far fa-book"></i> 10 Lessons</span>
-                                <div class="course-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <span>(4.0)</span>
-                                </div>
-                            </div>
-                            <h4 class="course-title">
-                                <a href="course-single.html">Biology And Conservation</a>
-                            </h4>
-                            <p class="course-text">
-                                There are many variations of passages orem psum available but the majority have
-                                suffer alteration in some form by injected.
-                            </p>
-                            <div class="course-bottom">
-                                <div class="course-bottom-left">
-                                    <span><i class="far fa-users"></i>75 Seats</span>
-                                    <span><i class="far fa-clock"></i>04 Years</span>
-                                </div>
-                                <span class="course-price">$750</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="course-item wow fadeInUp" data-wow-delay=".25s">
-                        <div class="course-img">
-                            <span class="course-tag"><i class="far fa-bookmark"></i> Science</span>
-                            <img src="{{ asset('assets/img/course/04.jpg') }}" alt="">
-                            <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
-                        </div>
-                        <div class="course-content">
-                            <div class="course-meta">
-                                <span class="course-meta-left"><i class="far fa-book"></i> 10 Lessons</span>
-                                <div class="course-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <span>(4.0)</span>
-                                </div>
-                            </div>
-                            <h4 class="course-title">
-                                <a href="course-single.html">Science And Engineering</a>
-                            </h4>
-                            <p class="course-text">
-                                There are many variations of passages orem psum available but the majority have
-                                suffer alteration in some form by injected.
-                            </p>
-                            <div class="course-bottom">
-                                <div class="course-bottom-left">
-                                    <span><i class="far fa-users"></i>75 Seats</span>
-                                    <span><i class="far fa-clock"></i>04 Years</span>
-                                </div>
-                                <span class="course-price">$750</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="course-item wow fadeInUp" data-wow-delay=".50s">
-                        <div class="course-img">
-                            <span class="course-tag"><i class="far fa-bookmark"></i> Health</span>
-                            <img src="{{ asset('assets/img/course/05.jpg') }}" alt="">
-                            <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
-                        </div>
-                        <div class="course-content">
-                            <div class="course-meta">
-                                <span class="course-meta-left"><i class="far fa-book"></i> 10 Lessons</span>
-                                <div class="course-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <span>(4.0)</span>
-                                </div>
-                            </div>
-                            <h4 class="course-title">
-                                <a href="course-single.html">Health Administration</a>
-                            </h4>
-                            <p class="course-text">
-                                There are many variations of passages orem psum available but the majority have
-                                suffer alteration in some form by injected.
-                            </p>
-                            <div class="course-bottom">
-                                <div class="course-bottom-left">
-                                    <span><i class="far fa-users"></i>75 Seats</span>
-                                    <span><i class="far fa-clock"></i>04 Years</span>
-                                </div>
-                                <span class="course-price">$750</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="course-item wow fadeInUp" data-wow-delay=".75s">
-                        <div class="course-img">
-                            <span class="course-tag"><i class="far fa-bookmark"></i> Finance</span>
-                            <img src="{{ asset('assets/img/course/06.jpg') }}" alt="">
-                            <a href="course-single.html" class="btn"><i class="far fa-link"></i></a>
-                        </div>
-                        <div class="course-content">
-                            <div class="course-meta">
-                                <span class="course-meta-left"><i class="far fa-book"></i> 10 Lessons</span>
-                                <div class="course-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <span>(4.0)</span>
-                                </div>
-                            </div>
-                            <h4 class="course-title">
-                                <a href="course-single.html">Accounting And Finance</a>
-                            </h4>
-                            <p class="course-text">
-                                There are many variations of passages orem psum available but the majority have
-                                suffer alteration in some form by injected.
-                            </p>
-                            <div class="course-bottom">
-                                <div class="course-bottom-left">
-                                    <span><i class="far fa-users"></i>75 Seats</span>
-                                    <span><i class="far fa-clock"></i>04 Years</span>
-                                </div>
-                                <span class="course-price">$750</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- course-area -->
-
-
-    <!-- gallery-area -->
-    <div class="gallery-area py-120">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 mx-auto">
-                    <div class="site-heading text-center">
-                        <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Gallery</span>
-                        <h2 class="site-title">Our Photo <span>Gallery</span></h2>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of
-                            a page when looking at its layout.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row popup-gallery">
-                <div class="col-md-4 wow fadeInUp" data-wow-delay=".25s">
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="{{ asset('assets/img/gallery/01.jpg') }}" alt="">
-                        </div>
-                        <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/gallery/01.jpg') }}"><i
-                                    class="fal fa-plus"></i></a>
-                        </div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="{{ asset('assets/img/gallery/02.jpg') }}" alt="">
-                        </div>
-                        <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/gallery/02.jpg') }}"><i
-                                    class="fal fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 wow fadeInUp" data-wow-delay=".50s">
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="{{ asset('assets/img/gallery/03.jpg') }}" alt="">
-                        </div>
-                        <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/gallery/03.jpg') }}"><i
-                                    class="fal fa-plus"></i></a>
-                        </div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="{{ asset('assets/img/gallery/04.jpg') }}" alt="">
-                        </div>
-                        <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/gallery/04.jpg') }}"><i
-                                    class="fal fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 wow fadeInUp" data-wow-delay=".75s">
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="{{ asset('assets/img/gallery/05.jpg') }}" alt="">
-                        </div>
-                        <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/gallery/05.jpg') }}"><i
-                                    class="fal fa-plus"></i></a>
-                        </div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="{{ asset('assets/img/gallery/06.jpg') }}" alt="">
-                        </div>
-                        <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/gallery/06.jpg') }}"><i
-                                    class="fal fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- gallery-area end -->
-
-
-    <!-- team-area -->
-    <div class="team-area2 pb-120">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 mx-auto">
-                    <div class="site-heading text-center">
-                        <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Our Teachers</span>
-                        <h2 class="site-title">Meet With Our <span>Teachers</span></h2>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of
-                            a page when looking at its layout.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="team-item wow fadeInUp" data-wow-delay=".25s">
-                        <div class="team-img">
-                            <img src="{{ asset('assets/img/team/05.jpg') }}" alt="thumb">
-                        </div>
-                        <div class="team-social">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-whatsapp"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                        <div class="team-content">
-                            <div class="team-bio">
-                                <h5><a href="teacher-single.html">Angela T. Vigil</a></h5>
-                                <span>Associate Professor</span>
-                            </div>
-                        </div>
-                        <span class="team-social-btn"><i class="far fa-share-nodes"></i></span>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="team-item wow fadeInUp" data-wow-delay=".50s">
-                        <div class="team-img">
-                            <img src="{{ asset('assets/img/team/06.jpg') }}" alt="thumb">
-                        </div>
-                        <div class="team-social">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-whatsapp"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                        <div class="team-content">
-                            <div class="team-bio">
-                                <h5><a href="teacher-single.html">Frank A. Mitchell</a></h5>
-                                <span>Associate Professor</span>
-                            </div>
-                        </div>
-                        <span class="team-social-btn"><i class="far fa-share-nodes"></i></span>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="team-item wow fadeInUp" data-wow-delay=".75s">
-                        <div class="team-img">
-                            <img src="{{ asset('assets/img/team/07.jpg') }}" alt="thumb">
-                        </div>
-                        <div class="team-social">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-whatsapp"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                        <div class="team-content">
-                            <div class="team-bio">
-                                <h5><a href="teacher-single.html">Susan D. Lunsford</a></h5>
-                                <span>CEO & Founder</span>
-                            </div>
-                        </div>
-                        <span class="team-social-btn"><i class="far fa-share-nodes"></i></span>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="team-item wow fadeInUp" data-wow-delay="1s">
-                        <div class="team-img">
-                            <img src="{{ asset('assets/img/team/08.jpg') }}" alt="thumb">
-                        </div>
-                        <div class="team-social">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-whatsapp"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                        <div class="team-content">
-                            <div class="team-bio">
-                                <h5><a href="teacher-single.html">Dennis A. Pruitt</a></h5>
-                                <span>Associate Professor</span>
-                            </div>
-                        </div>
-                        <span class="team-social-btn"><i class="far fa-share-nodes"></i></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- team-area end -->
-
+    <!-- about area end --> 
 
     <!-- choose-area -->
     <div class="choose-area pt-80 pb-80">
@@ -601,12 +161,12 @@
                     <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                         <div class="choose-content-info">
                             <div class="site-heading mb-0">
-                                <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Why Choose Us</span>
-                                <h2 class="site-title text-white mb-10">We Are Expert & <span>Do Our Best</span> For Your Goal</h2>
+                                <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> CURSUS SCOLAIRE</span>
+                                <h2 class="site-title text-white mb-10">Un parcours <span>d’excellence</span> pour <span>grandir</span> en <span>confiance</span>!</h2>
+
+
                                 <p class="text-white">
-                                    It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when many desktop and web page editors looking at its
-                                    layout.
+                                    A Les écoles AlBaraime, de la maternelle au lycée, l’enseignement et l’apprentissage se font conformément au programme et aux exigences du Ministère Français de l’Education Nationale, pour tous les cycles et à tous les niveaux. Découvrez notre cursus pédagogique…
                                 </p>
                             </div>
                             <div class="choose-content-wrap">
@@ -614,11 +174,10 @@
                                     <div class="col-md-6">
                                         <div class="choose-item">
                                             <div class="choose-item-icon">
-                                                <img src="{{ asset('assets/img/icon/teacher-2.svg') }}" alt="">
+                                                <img src="{{ asset('assets/img/icon/teacher.svg') }}" alt="">
                                             </div>
                                             <div class="choose-item-info">
-                                                <h4>Expert Teachers</h4>
-                                                <p>There are many variation of the suffered.</p>
+                                                <p><b>Préscolaire</b></p>
                                             </div>
                                         </div>
                                     </div>
@@ -628,8 +187,17 @@
                                                 <img src="{{ asset('assets/img/icon/course-material.svg') }}" alt="">
                                             </div>
                                             <div class="choose-item-info">
-                                                <h4>Courses Material</h4>
-                                                <p>There are many variation of the suffered.</p>
+                                                <p><b>Primaire</b></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="choose-item">
+                                            <div class="choose-item-icon">
+                                                <img src="{{ asset('assets/img/icon/teacher-2.svg') }}" alt="">
+                                            </div>
+                                            <div class="choose-item-info">
+                                                <p><b>Collège</b></p>
                                             </div>
                                         </div>
                                     </div>
@@ -639,19 +207,7 @@
                                                 <img src="{{ asset('assets/img/icon/online-course.svg') }}" alt="">
                                             </div>
                                             <div class="choose-item-info">
-                                                <h4>Online Courses</h4>
-                                                <p>There are many variation of the suffered.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="choose-item">
-                                            <div class="choose-item-icon">
-                                                <img src="{{ asset('assets/img/icon/money.svg') }}" alt="">
-                                            </div>
-                                            <div class="choose-item-info">
-                                                <h4>Affordable Price</h4>
-                                                <p>There are many variation of the suffered.</p>
+                                                 <p><b>Lycée</b></p>
                                             </div>
                                         </div>
                                     </div>
@@ -670,101 +226,93 @@
     </div>
     <!-- choose-area end -->
 
-
-    <!-- event area -->
-    <div class="event-area py-120">
+    <!-- gallery-area -->
+    <div class="gallery-area py-120">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 mx-auto">
                     <div class="site-heading text-center">
-                        <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Events</span>
-                        <h2 class="site-title">Our Upcoming <span>Events</span></h2>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of
-                            a page when looking at its layout.</p>
+                        <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Galerie</span>
+                        <h2 class="site-title">Galerie <span>Éducative</span> </h2>
+                        <p>Du Primaire au Lycée.</p>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="event-item wow fadeInUp" data-wow-delay=".25s">
-                        <div class="event-location">
-                            <span><i class="far fa-map-marker-alt"></i> 25/B Milford Road, New York</span>
+            <div class="row popup-gallery">
+                <div class="col-md-4 wow fadeInUp" data-wow-delay=".25s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/img/ecole/1.jpg') }}" alt="">
                         </div>
-                        <div class="event-img">
-                            <img src="{{ asset('assets/img/event/01.jpg') }}" alt="">
+                        <div class="gallery-content">
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/ecole/1.jpg') }}"><i
+                                    class="fal fa-plus"></i></a>
                         </div>
-                        <div class="event-info">
-                            <div class="event-meta">
-                                <span class="event-date"><i class="far fa-calendar-alt"></i>16 June, 2024</span>
-                                <span class="event-time"><i class="far fa-clock"></i>10.00AM - 04.00PM</span>
-                            </div>
-                            <h4 class="event-title"><a href="event-single.html">High School Program 2024</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="event-btn">
-                                <a href="event-single.html" class="theme-btn">Join Event<i class="fas fa-arrow-right-long"></i></a>
-                            </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/img/ecole/5.jpg') }}" alt="">
+                        </div>
+                        <div class="gallery-content">
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/ecole/5.jpg') }}"><i
+                                    class="fal fa-plus"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="event-item wow fadeInDown" data-wow-delay=".25s">
-                        <div class="event-location">
-                            <span><i class="far fa-map-marker-alt"></i> 25/B Milford Road, New York</span>
+                <div class="col-md-4 wow fadeInUp" data-wow-delay=".50s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/img/ecole/3.jpg') }}" alt="">
                         </div>
-                        <div class="event-img">
-                            <img src="{{ asset('assets/img/event/02.jpg') }}" alt="">
+                        <div class="gallery-content">
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/ecole/3.jpg') }}"><i
+                                    class="fal fa-plus"></i></a>
                         </div>
-                        <div class="event-info">
-                            <div class="event-meta">
-                                <span class="event-date"><i class="far fa-calendar-alt"></i>16 June, 2024</span>
-                                <span class="event-time"><i class="far fa-clock"></i>10.00AM - 04.00PM</span>
-                            </div>
-                            <h4 class="event-title"><a href="event-single.html">High School Program 2024</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="event-btn">
-                                <a href="event-single.html" class="theme-btn">Join Event<i class="fas fa-arrow-right-long"></i></a>
-                            </div>
+                    </div> 
+                </div>
+                <div class="col-md-4 wow fadeInUp" data-wow-delay=".75s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/img/ecole/4.jpg') }}" alt="">
+                        </div>
+                        <div class="gallery-content">
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/ecole/4.jpg') }}"><i
+                                    class="fal fa-plus"></i></a>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="event-item wow fadeInUp" data-wow-delay=".25s">
-                        <div class="event-location">
-                            <span><i class="far fa-map-marker-alt"></i> 25/B Milford Road, New York</span>
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/img/ecole/6.jpg') }}" alt="">
                         </div>
-                        <div class="event-img">
-                            <img src="{{ asset('assets/img/event/03.jpg') }}" alt="">
-                        </div>
-                        <div class="event-info">
-                            <div class="event-meta">
-                                <span class="event-date"><i class="far fa-calendar-alt"></i>16 June, 2024</span>
-                                <span class="event-time"><i class="far fa-clock"></i>10.00AM - 04.00PM</span>
-                            </div>
-                            <h4 class="event-title"><a href="event-single.html">High School Program 2024</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="event-btn">
-                                <a href="event-single.html" class="theme-btn">Join Event<i class="fas fa-arrow-right-long"></i></a>
-                            </div>
+                        <div class="gallery-content">
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/ecole/6.jpg') }}"><i
+                                    class="fal fa-plus"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- event area end -->
-
+    <!-- gallery-area end -->
 
     <!-- cta-area -->
     <div class="cta-area pt-50 pb-50">
         <div class="container">
             <div class="cta-wrapper">
                 <div class="row align-items-center">
-                    <div class="col-lg-5 ms-lg-auto">
+                    <div class="col-lg-6 ms-lg-auto">
                         <div class="cta-content mt-0">
-                            <h1>Our 20% Offer Running - Join Today For Your Course</h1>
-                            <p>There are many variations of passages available but the majority have suffered alteration in some form by injected humour randomised words which don't look even slightly believable.</p>
+                            <h1 class="text-center">Préscolaire</h1>
+                            </br>
+                            </br>
+                            <p>Les inscriptions pour l’année - 2024/2025 sont ouvertes.  
+                            Chers parents,</br>
+                            - Nous avons le plaisir de vous informer que les inscriptions et réinscriptions pour l’année scolaire 2024-2025 sont désormais ouvertes.
+                            </br>
+                            - Pour les nouveaux élèves souhaitant s’inscrire aux écoles ALBARAIME, veuillez remplir le formulaire de passation de test en cliquant sur l’école correspondante</p>
+
                             <div class="cta-btn">
-                                <a href="application-form.html" class="theme-btn">Apply Now<i class="fas fa-arrow-right-long"></i></a>
+                                <a href="#" class="theme-btn"> S'inscrire<i class="fas fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                     </div>
@@ -774,133 +322,79 @@
     </div>
     <!-- cta-area end -->
 
-
     <!-- department area -->
     <div class="department-area py-120">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 mx-auto">
                     <div class="site-heading text-center">
-                        <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Department</span>
-                        <h2 class="site-title">Browse Our <span>Department</span></h2>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of
-                            a page when looking at its layout.</p>
+                        <span class="site-title-tagline"><i class="far fa-book-open-reader"></i>  </span>
+                        <h2 class="site-title">Programmes <span>Multidisciplinaires</span></h2>
+                        <p>Les élèves exploreront divers connaissances tels que les sciences, les arts et bien plus encore.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <div class="department-item wow fadeInUp" data-wow-delay=".25s">
                         <div class="department-icon">
                             <img src="{{ asset('assets/img/icon/monitor.svg') }}" alt="">
                         </div>
                         <div class="department-info">
-                            <h4 class="department-title"><a href="academic-single.html">Business And Finance</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="department-btn">
-                                <a href="academic-single.html">Read More<i class="fas fa-arrow-right-long"></i></a>
-                            </div>
+                            <h4 class="department-title"><a href="#">Sciences en français</a></h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <div class="department-item wow fadeInUp" data-wow-delay=".50s">
                         <div class="department-icon">
-                            <img src="{{ asset('assets/img/icon/law.svg') }}" alt="">
+                            <img src="{{ asset('assets/img/icon/human.svg') }}" alt="">
                         </div>
                         <div class="department-info">
-                            <h4 class="department-title"><a href="academic-single.html">Law And Criminology</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="department-btn">
-                                <a href="academic-single.html">Read More<i class="fas fa-arrow-right-long"></i></a>
-                            </div>
+                            <h4 class="department-title"><a href="#">Calcule mental</a></h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <div class="department-item wow fadeInUp" data-wow-delay=".75s">
                         <div class="department-icon">
                             <img src="{{ asset('assets/img/icon/data.svg') }}" alt="">
                         </div>
                         <div class="department-info">
-                            <h4 class="department-title"><a href="academic-single.html">IT And Data Science</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="department-btn">
-                                <a href="academic-single.html">Read More<i class="fas fa-arrow-right-long"></i></a>
-                            </div>
+                            <h4 class="department-title"><a href="#">Informatique</a></h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <div class="department-item wow fadeInUp" data-wow-delay="1s">
-                        <div class="department-icon">
-                            <img src="{{ asset('assets/img/icon/health.svg') }}" alt="">
-                        </div>
-                        <div class="department-info">
-                            <h4 class="department-title"><a href="academic-single.html">Health And Medicine</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="department-btn">
-                                <a href="academic-single.html">Read More<i class="fas fa-arrow-right-long"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="department-item wow fadeInUp" data-wow-delay=".25s">
-                        <div class="department-icon">
-                            <img src="{{ asset('assets/img/icon/art.svg') }}" alt="">
-                        </div>
-                        <div class="department-info">
-                            <h4 class="department-title"><a href="academic-single.html">Art And Design</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="department-btn">
-                                <a href="academic-single.html">Read More<i class="fas fa-arrow-right-long"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="department-item wow fadeInUp" data-wow-delay=".50s">
-                        <div class="department-icon">
-                            <img src="{{ asset('assets/img/icon/information.svg') }}" alt="">
-                        </div>
-                        <div class="department-info">
-                            <h4 class="department-title"><a href="academic-single.html">Information Technology</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="department-btn">
-                                <a href="academic-single.html">Read More<i class="fas fa-arrow-right-long"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="department-item wow fadeInUp" data-wow-delay=".75s">
                         <div class="department-icon">
                             <img src="{{ asset('assets/img/icon/acting.svg') }}" alt="">
                         </div>
                         <div class="department-info">
-                            <h4 class="department-title"><a href="academic-single.html">Acting And Drama</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="department-btn">
-                                <a href="academic-single.html">Read More<i class="fas fa-arrow-right-long"></i></a>
-                            </div>
+                            <h4 class="department-title"><a href="#">Théâtre</a></h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="department-item wow fadeInUp" data-wow-delay="1s">
+                <div class="col-lg-4">
+                    <div class="department-item wow fadeInUp" data-wow-delay=".25s">
                         <div class="department-icon">
-                            <img src="{{ asset('assets/img/icon/human.svg') }}" alt="">
+                            <img src="{{ asset('assets/img/icon/information.svg') }}" alt="">
                         </div>
                         <div class="department-info">
-                            <h4 class="department-title"><a href="academic-single.html">Human Resource</a></h4>
-                            <p>There are many variations of passages the majority have some injected humour.</p>
-                            <div class="department-btn">
-                                <a href="academic-single.html">Read More<i class="fas fa-arrow-right-long"></i></a>
-                            </div>
+                            <h4 class="department-title"><a href="#">Activité physique</a></h4>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4">
+                    <div class="department-item wow fadeInUp" data-wow-delay=".50s">
+                        <div class="department-icon">
+                            <img src="{{ asset('assets/img/icon/art.svg') }}" alt="">
+                        </div>
+                        <div class="department-info">
+                            <h4 class="department-title"><a href="#">Art</a></h4>
+                        </div>
+                    </div>
+                </div> 
             </div>
         </div>
     </div>
@@ -913,11 +407,9 @@
             <div class="row">
                 <div class="col-lg-6 mx-auto">
                     <div class="site-heading text-center">
-                        <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Testimonials</span>
-                        <h2 class="site-title text-white">What Our Students <span>Say's</span></h2>
-                        <p class="text-white">It is a long established fact that a reader will be distracted by the
-                            readable content of
-                            a page when looking at its layout.</p>
+                        <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> TEMOIGNAGES</span>
+                        <h2 class="site-title text-white">Nos heureux <span>parents</span></h2>
+                        <p class="text-white">C’est ce qu’ont dit les parents de nos élèves.</p>
                     </div>
                 </div>
             </div>
@@ -931,17 +423,14 @@
                         <i class="fas fa-star"></i>
                     </div>
                     <div class="testimonial-quote">
-                        <p>
-                            There are many variations of tend to repeat chunks some all form necessary injected for the going are humour words.
-                        </p>
+                        <p> Les Écoles Albaraime Privée est un lieu où l’apprentissage et le plaisir se rejoignent harmonieusement.</p>
                     </div>
                     <div class="testimonial-content">
                         <div class="testimonial-author-img">
                             <img src="{{ asset('assets/img/testimonial/01.jpg') }}" alt="">
                         </div>
                         <div class="testimonial-author-info">
-                            <h4>Anthony Nicoll</h4>
-                            <p>Student</p>
+                            <h4>Mr X</h4> 
                         </div>
                     </div>
                     <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
@@ -955,17 +444,14 @@
                         <i class="fas fa-star"></i>
                     </div>
                     <div class="testimonial-quote">
-                        <p>
-                            There are many variations of tend to repeat chunks some all form necessary injected for the going are humour words.
-                        </p>
+                        <p>Les enseignants dévoués et passionnés guident les élèves vers l’excellence, et les activités parascolaires sont variées et stimulantes.</p>
                     </div>
                     <div class="testimonial-content">
                         <div class="testimonial-author-img">
                             <img src="{{ asset('assets/img/testimonial/02.jpg') }}" alt="">
                         </div>
                         <div class="testimonial-author-info">
-                            <h4>Richard Lock</h4>
-                            <p>Student</p>
+                            <h4>Mme X</h4> 
                         </div>
                     </div>
                     <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
@@ -979,69 +465,18 @@
                         <i class="fas fa-star"></i>
                     </div>
                     <div class="testimonial-quote">
-                        <p>
-                            There are many variations of tend to repeat chunks some all form necessary injected for the going are humour words.
-                        </p>
+                        <p>L’atmosphère chaleureuse et bienveillante de l’école favorise l’épanouissement des jeunes esprits.</p>
                     </div>
                     <div class="testimonial-content">
                         <div class="testimonial-author-img">
                             <img src="{{ asset('assets/img/testimonial/03.jpg') }}" alt="">
                         </div>
                         <div class="testimonial-author-info">
-                            <h4>Randal Grand</h4>
-                            <p>Student</p>
+                            <h4>Mr X</h4> 
                         </div>
                     </div>
                     <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
-                </div>
-                <div class="testimonial-item">
-                    <div class="testimonial-rate">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <div class="testimonial-quote">
-                        <p>
-                            There are many variations of tend to repeat chunks some all form necessary injected for the going are humour words.
-                        </p>
-                    </div>
-                    <div class="testimonial-content">
-                        <div class="testimonial-author-img">
-                            <img src="{{ asset('assets/img/testimonial/04.jpg') }}" alt="">
-                        </div>
-                        <div class="testimonial-author-info">
-                            <h4>Edward Miles</h4>
-                            <p>Student</p>
-                        </div>
-                    </div>
-                    <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
-                </div>
-                <div class="testimonial-item">
-                    <div class="testimonial-rate">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <div class="testimonial-quote">
-                        <p>
-                            There are many variations of tend to repeat chunks some all form necessary injected for the going are humour words.
-                        </p>
-                    </div>
-                    <div class="testimonial-content">
-                        <div class="testimonial-author-img">
-                            <img src="{{ asset('assets/img/testimonial/05.jpg') }}" alt="">
-                        </div>
-                        <div class="testimonial-author-info">
-                            <h4>Ninal Gordon</h4>
-                            <p>Student</p>
-                        </div>
-                    </div>
-                    <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
-                </div>
+                </div> 
             </div>
         </div>
     </div>
@@ -1054,74 +489,35 @@
             <div class="row">
                 <div class="col-lg-6 mx-auto">
                     <div class="site-heading text-center">
-                        <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Our Blog</span>
-                        <h2 class="site-title">Latest News & <span>Blog</span></h2>
+                        <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Découvrons nos Actualités</span>
+                        <h2 class="site-title"> Dernières <span>Blogs</span> & <span>Presse</span></h2>
                         <p>It is a long established fact that a reader will be distracted by the readable content of
                             a page when looking at its layout.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
+                @foreach($blogs->take(3) as $blog)
                 <div class="col-md-6 col-lg-4">
                     <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
-                        <div class="blog-date"><i class="fal fa-calendar-alt"></i> June 18, 2024</div>
+                        <div class="blog-date"><i class="fal fa-calendar-alt"></i>  {{ $blog->date }}</div>
                         <div class="blog-item-img">
-                            <img src="{{ asset('assets/img/blog/01.jpg') }}" alt="Thumb">
+                            <img src="{{ asset('storage/'.$blog->image) }}" alt="Thumb">
                         </div>
                         <div class="blog-item-info">
                             <div class="blog-item-meta">
                                 <ul>
-                                    <li><a href="#"><i class="far fa-user-circle"></i> By Alicia Davis</a></li>
-                                    <li><a href="#"><i class="far fa-comments"></i> 03 Comments</a></li>
+                                    <li><a href="{{ url('blog/'.$blog->slug) }}"><i class="far fa-bookmark"></i>{{ $blog->categories->title }}</a></li>
                                 </ul>
                             </div>
                             <h4 class="blog-title">
-                                <a href="blog-single.html">There are many variations passage have suffered available.</a>
+                                <a href="{{ url('blog/'.$blog->slug) }}">{{ $blog->title }}</a>
                             </h4>
-                            <a class="theme-btn" href="blog-single.html">Read More<i class="fas fa-arrow-right-long"></i></a>
+                            <a class="theme-btn" href="{{ url('blog/'.$blog->slug) }}">En savoir plus<i class="fas fa-arrow-right-long"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="blog-item wow fadeInUp" data-wow-delay=".50s">
-                        <div class="blog-date"><i class="fal fa-calendar-alt"></i> June 18, 2024</div>
-                        <div class="blog-item-img">
-                            <img src="{{ asset('assets/img/blog/02.jpg') }}" alt="Thumb">
-                        </div>
-                        <div class="blog-item-info">
-                            <div class="blog-item-meta">
-                                <ul>
-                                    <li><a href="#"><i class="far fa-user-circle"></i> By Alicia Davis</a></li>
-                                    <li><a href="#"><i class="far fa-comments"></i> 03 Comments</a></li>
-                                </ul>
-                            </div>
-                            <h4 class="blog-title">
-                                <a href="blog-single.html">There are many variations passage have suffered available.</a>
-                            </h4>
-                            <a class="theme-btn" href="blog-single.html">Read More<i class="fas fa-arrow-right-long"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="blog-item wow fadeInUp" data-wow-delay=".75s">
-                        <div class="blog-date"><i class="fal fa-calendar-alt"></i> June 18, 2024</div>
-                        <div class="blog-item-img">
-                            <img src="{{ asset('assets/img/blog/03.jpg') }}" alt="Thumb">
-                        </div>
-                        <div class="blog-item-info">
-                            <div class="blog-item-meta">
-                                <ul>
-                                    <li><a href="#"><i class="far fa-user-circle"></i> By Alicia Davis</a></li>
-                                    <li><a href="#"><i class="far fa-comments"></i> 03 Comments</a></li>
-                                </ul>
-                            </div>
-                            <h4 class="blog-title">
-                                <a href="blog-single.html">There are many variations passage have suffered available.</a>
-                            </h4>
-                            <a class="theme-btn" href="blog-single.html">Read More<i class="fas fa-arrow-right-long"></i></a>
-                        </div>
-                    </div>
-                </div>
+                @endforeach 
             </div>
         </div>
     </div>

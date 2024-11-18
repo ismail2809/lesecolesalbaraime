@@ -49,8 +49,8 @@
                     </div>
                     <div class="collapse navbar-collapse" id="main_nav">
                         <ul class="navbar-nav">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link active" href="{{ url('/') }}" data-bs-toggle="dropdown">Home</a>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="{{ url('/') }}">Home</a>
                             </li>
                             <li class="nav-item mega-menu dropdown">
                                 <a class="nav-link dropdown-toggle" href="{{ url('/') }}" data-bs-toggle="dropdown">les écoles Albaraime</a>
@@ -84,7 +84,7 @@
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="{{ url('/cycles') }}" data-bs-toggle="dropdown">Cycles des écoles</a>
+                                <a class="nav-link dropdown-toggle" href="{{ url('/cycles') }}" data-bs-toggle="dropdown">Cursus Scolaire</a>
                                 <ul class="dropdown-menu fade-down"> 
                                     <li><a class="dropdown-item" href="#">Maternelle</a></li> 
                                     <li><a class="dropdown-item" href="#">Primaire</a></li> 
@@ -95,13 +95,14 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="{{ url('/services') }}" data-bs-toggle="dropdown">Services</a>
                                 <ul class="dropdown-menu fade-down">
+                                    <li><a class="dropdown-item" href="{{ url('/fournitures') }}"> Fournitures</a></li>
                                     <li><a class="dropdown-item" href="#"> Transport</a></li>
                                     <li><a class="dropdown-item" href="#"> Caféteria</a></li>
                                     <li><a class="dropdown-item" href="#">Activités parascolaire </a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="{{ url('/galerie') }}">Galerie</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ url('/blog') }}">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url('/galeries') }}">Galerie</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url('/blogs') }}">Blog</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/contact') }}">Contact</a></li>
                         </ul>
                         <div class="nav-right"> 
