@@ -44,7 +44,7 @@ class BlogResource extends Resource
                 Forms\Components\DatePicker::make('date')
                     ->required(),
                 Forms\Components\FileUpload::make('image')
-                    ->directory('blogs')
+                    ->directory('uploads/blogs')
                     ->image()
                     ->required(),
                 Forms\Components\Toggle::make('is_published')

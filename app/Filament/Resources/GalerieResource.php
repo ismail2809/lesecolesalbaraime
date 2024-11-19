@@ -24,7 +24,7 @@ class GalerieResource extends Resource
         return $form
             ->schema([
                 Forms\Components\FileUpload::make('image')
-                    ->directory('uploads/images')
+                    ->directory('uploads/galerie')
                     ->image()
                     ->required(), 
             ]);
