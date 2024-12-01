@@ -11,7 +11,7 @@
                                     <i class="far fa-book-open-reader"></i>Bienvenue chez
                                 </h6>
                                 <h1 class="hero-title" data-animation="fadeInRight" data-delay=".50s">
-                                    Les écoles <span>AlBaraime</span> Privée
+                                    Les écoles <span>Al Baraime</span> Privées
                                 </h1>
                                 <p data-animation="fadeInLeft" data-delay=".75s">
                                     Préscolaire, Primaire, Collège & Lycée
@@ -90,7 +90,7 @@
                                         <div class="about-experience-icon">
                                             <img src="{{ asset('assets/img/icon/exchange-idea.svg') }}" alt="">
                                         </div>
-                                        <b class="text-start">25 Année <br> Qualité de service</b>
+                                        <b class="text-start">Plus 35 Année <br> Qualité de service</b>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -110,7 +110,10 @@
                             </h2>
                         </div>
                         <p class="about-text">
-                            École Al Baraime repose sur une histoire riche de 25 ans d’enseignement privé au Maroc , plus précisément à Azemmour. Sa fondation a vu le jour avec la vision de Mohammed Hamamat. , un Juriste d’affaire et Journaliste qui a reconnu dans le temps un besoin éducatif spécifique dans notre communauté et a contribué en offrant une éducation de qualité durant toutes ces décennies.
+                        Les écoles AL Baraime reposent sur une histoire riche de 35 ans d’enseignement privé au Maroc, plus
+                        précisément à Azemmour . Sa fondation a vu le jour avec la vision de Madame Naima KARAFI, la Présidente
+                        Directrice-Générale qui a reconnu dans le temps un besoin éducatif spécifique dans notre communauté et a
+                        contribué en offrant une éducation de qualité durant toutes ces décennies.
                         </p>
                         <div class="about-content">
                             <div class="row">
@@ -166,8 +169,9 @@
 
 
                                 <p class="text-white">
-                                    A Les écoles AlBaraime, de la maternelle au lycée, l’enseignement et l’apprentissage se font conformément au programme et aux exigences du Ministère Français de l’Education Nationale, pour tous les cycles et à tous les niveaux. Découvrez notre cursus pédagogique…
-                                </p>
+                                Aux écoles AL Baraime, de la maternelle au lycée, l’enseignement et l’apprentissage se font conformément au
+programme et aux exigences du Ministère de l’Education Nationale et des Sports, pour tous les cycles et à tous
+les niveaux. Découvrez notre cursus pédagogique…                                </p>
                             </div>
                             <div class="choose-content-wrap">
                                 <div class="row g-4">
@@ -302,14 +306,10 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 ms-lg-auto">
                         <div class="cta-content mt-0">
-                            <h1 class="text-center">Préscolaire</h1>
+                            <h1 class="text-center">Inscriptions & Réinscriptions</h1>
                             </br>
                             </br>
-                            <p>Les inscriptions pour l’année - 2024/2025 sont ouvertes.  
-                            Chers parents,</br>
-                            - Nous avons le plaisir de vous informer que les inscriptions et réinscriptions pour l’année scolaire 2024-2025 sont désormais ouvertes.
-                            </br>
-                            - Pour les nouveaux élèves souhaitant s’inscrire aux écoles ALBARAIME, veuillez remplir le formulaire de passation de test en cliquant sur l’école correspondante</p>
+                            <p>- Pour les nouveaux élèves souhaitant s’inscrire aux écoles ALBARAIME, veuillez remplir le formulaire de passation de test en cliquant sur l’école correspondante</p>
 
                             <div class="cta-btn">
                                 <a href="#" class="theme-btn"> S'inscrire<i class="fas fa-arrow-right-long"></i></a>
@@ -351,7 +351,7 @@
                             <img src="{{ asset('assets/img/icon/human.svg') }}" alt="">
                         </div>
                         <div class="department-info">
-                            <h4 class="department-title"><a href="#">Calcule mental</a></h4>
+                            <h4 class="department-title"><a href="#">Calcul mental</a></h4>
                         </div>
                     </div>
                 </div>

@@ -23,6 +23,9 @@ class GalerieResource extends Resource
     {
         return $form
             ->schema([
+                Forms\Components\TextInput::make('title')
+                    ->required()
+                    ->maxLength(255),
                 Forms\Components\FileUpload::make('image')
                     ->directory('uploads/galerie')
                     ->image()
@@ -34,6 +37,7 @@ class GalerieResource extends Resource
     {
         return $table
             ->columns([
+                Tables\Columns\TextColumn::make('title'),
                 Tables\Columns\ImageColumn::make('image'),
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()

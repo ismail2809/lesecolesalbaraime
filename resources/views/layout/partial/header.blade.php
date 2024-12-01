@@ -6,9 +6,8 @@
                     <div class="header-top-left">
                         <div class="header-top-social">
                             <span>Follow Us: </span>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a> 
+                            <a href="https://www.facebook.com/Albaraime" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/lesecolesalbaraime" target="_blank"><i class="fab fa-instagram"></i></a>      
                         </div>
                     </div>
                     <div class="header-top-right">
@@ -18,8 +17,8 @@
                                     <a href="#"><i class="far fa-location-dot"></i>Bvd Med V, BP : 14, Azemmour, 24100, Maroc</a>
                                 </li>
                                 <li>
-                                    <a href="email:albaraime.viescholaire@gmail.com"><i class="far fa-envelopes"></i> 
-                                    <span>albaraime.viescholaire@gmail.com</span></a>
+                                    <a href="email:contact@lesecolesalbaraime.com"><i class="far fa-envelopes"></i> 
+                                    <span>contact@lesecolesalbaraime.com</span></a>
                                 </li>
                                 <li>
                                     <a href="tel:0523358346"><i class="far fa-phone-volume"></i>05 23 35 83 46</a>

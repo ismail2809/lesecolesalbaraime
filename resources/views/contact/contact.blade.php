@@ -29,7 +29,7 @@
                         </div>
                         <div class="contact-info-content">
                             <h5>Adresse</h5>
-                            <p>Bvd Med V, BP : 14, Azemmour, 24100, Maroc</p>
+                            <p>Bvd Mohammed V 07 Oued Ziz Bp 14 Azemmour, 24100 Maroc</p>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                         </div>
                         <div class="contact-info-content">
                             <h5>Contact</h5>
-                            <p>05 23 35 83 46</p>
+                            <p>05 23 35 83 46 / 34 79 38</p>
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
                         </div>
                         <div class="contact-info-content">
                             <h5>Email</h5>
-                            <p><a href="email:albaraime.viescholaire@gmail.com" class="__cf_email__">albaraime.viescholaire@gmail.com</a></p>
+                            <p><a href="email:contact@lesecolesalbaraime.com" class="__cf_email__">contact@lesecolesalbaraime.com</a></p>
                         </div>
                     </div>
                 </div> 

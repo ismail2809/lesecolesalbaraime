@@ -20,11 +20,12 @@
                             <h4 class="footer-widget-title">Contactez-nous</h4>                       
                             <ul class="footer-contact">
                                 <li><a href="tel:0523358346"><i class="far fa-phone"></i>05 23 35 83 46</a></li>
-                                <li><i class="far fa-map-marker-alt"></i>Bd Mohammed V، 14 Oued Ziz، Azemmour 24100, Maroc</li>
-                                <li><i class="far fa-map-marker-alt"></i>Bd Mohammed V، 7 Oued Ziz، Azemmour 24100, Maroc</li>
-                                <li><a href="email:albaraime.viescholaire@gmail.com">
+                                <li><a href="tel:0523347938"><i class="far fa-phone"></i>05 23 34 79 38</a></li>
+                                <li><i class="far fa-map-marker-alt"></i>Bvd Mohammed V, Bp 14, Azemmour, 24100 Maroc</li>
+                                <li><i class="far fa-map-marker-alt"></i>07 Oued Ziz, Bp 14, Azemmour, 24100 Maroc</li>
+                                <li><a href="email:contact@lesecolesalbaraime.com">
                                     <i class="far fa-envelope"></i>
-                                    <span class="__cf_email__">albaraime.viescholaire@gmail.com</span></a>
+                                    <span class="__cf_email__">contact@lesecolesalbaraime.com</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -68,10 +69,8 @@
                         </div>
                         <div class="col-md-6 align-self-center">
                             <ul class="footer-social">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                <li><a href="https://www.facebook.com/Albaraime" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/lesecolesalbaraime" target="_blank"><i class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
