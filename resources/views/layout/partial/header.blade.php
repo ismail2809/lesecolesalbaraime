@@ -58,23 +58,21 @@
                                         <div class="container-fluid">
                                             <div class="row">
                                                 <div class="col-12 col-sm-6">
-                                                    <h5>Albaraime 1</h5>
+                                                    <h5>ALBARAIME I </h5>
+                                                    <p><b>Préscolaire </b></p>
                                                     <div class="menu-about">
-                                                        <a href="#" class="menu-about-logo"><img
-                                                                src="{{ asset('assets/img/logo/logo.png') }}" alt=""></a>
-                                                        <p>We are many variations of passages available but the majority
-                                                            have suffered alteration in some form by injected humour
-                                                            words injected humour believable.</p>
+                                                        <a href="#" class="menu-about-logo">
+                                                            <img src="{{ asset('assets/img/ecole/ALBARAIMEI.png') }}" alt="ALBARAIMEI" style="width: 450px !important">
+                                                        </a>
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-6">
-                                                    <h5>Albaraime 2</h5>
+                                                    <h5>ALBARAIME II </h5>
+                                                    <p><b>Primaire - Collège - Lycée </b></p>
                                                     <div class="menu-about">
-                                                        <a href="#" class="menu-about-logo"><img
-                                                                src="{{ asset('assets/img/logo/logo.png') }}" alt=""></a>
-                                                        <p>We are many variations of passages available but the majority
-                                                            have suffered alteration in some form by injected humour
-                                                            words injected humour believable.</p>
+                                                        <a href="#" class="menu-about-logo">
+                                                            <img src="{{ asset('assets/img/ecole/ALBARAIMEII.png') }}" alt="ALBARAIMEII" style="width: 450px !important">
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>

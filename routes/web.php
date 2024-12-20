@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\GalerieController;
+use App\Http\Controllers\LandingController;
 
 Route::get('/linkstorage', function () {
     Artisan::call('storage:link');
@@ -17,10 +18,13 @@ Route::get('/contact', function () {
 
 Route::get('/galeries', [GalerieController::class, 'index']);
 
-Route::get('/', [BlogController::class, 'mainBlog']);
+//Route::get('/', [BlogController::class, 'mainBlog']);
 
 Route::get('/blogs', [BlogController::class, 'index']);
 Route::get('/blog/{id}', [BlogController::class, 'show']);
+
+Route::get('/', [LandingController::class, 'index']);
+
 
 Route::get('/maintenance', function () {
     return view('maintenance');

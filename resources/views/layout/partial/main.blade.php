@@ -90,7 +90,8 @@
                                         <div class="about-experience-icon">
                                             <img src="{{ asset('assets/img/icon/exchange-idea.svg') }}" alt="">
                                         </div>
-                                        <b class="text-start">Plus 35 Année <br> Qualité de service</b>
+                                        <!-- <b class="text-start">Plus 35 Année <br> Qualité de service</b> -->
+                                        <b class="text-start" style="margin: 5px;"> {{ $apropos->qualite }}</b>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -106,14 +107,16 @@
                         <div class="site-heading mb-3">
                             <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> A Propos</span>
                             <h2 class="site-title">
-                                Notre système éducatif vous <span>Inspire</span> encore.
+                                <!-- Notre système éducatif vous <span>Inspire</span> encore. -->
+                                {{ $apropos->title }}
                             </h2>
                         </div>
                         <p class="about-text">
-                        Les écoles AL Baraime reposent sur une histoire riche de 35 ans d’enseignement privé au Maroc, plus
+                        <!-- Les écoles AL Baraime reposent sur une histoire riche de 35 ans d’enseignement privé au Maroc, plus
                         précisément à Azemmour . Sa fondation a vu le jour avec la vision de Madame Naima KARAFI, la Présidente
                         Directrice-Générale qui a reconnu dans le temps un besoin éducatif spécifique dans notre communauté et a
-                        contribué en offrant une éducation de qualité durant toutes ces décennies.
+                        contribué en offrant une éducation de qualité durant toutes ces décennies. -->
+                        {{ $apropos->description }}
                         </p>
                         <div class="about-content">
                             <div class="row">
@@ -123,8 +126,8 @@
                                             <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="">
                                         </div>
                                         <div class="about-item-content">
-                                            <h5>Albaraime Services</h5>
-                                            <p>Enseignement de l'anglais dès la maternelle.</p>
+                                            <h5>{{ $apropos->title_service1 }}</h5>  
+                                            <p>{{ $apropos->text_service1 }}</p>
                                         </div>
                                     </div>
                                     <div class="about-item">
@@ -132,18 +135,14 @@
                                             <img src="{{ asset('assets/img/icon/global-education.svg') }}" alt="">
                                         </div>
                                         <div class="about-item-content">
-                                            <h5>Enseignement trilingue</h5>
-                                            <p>Anglais ☑</p>
-                                            <p>Français ☑</p>
-                                            <p>Arabe ☑</p>
+                                            <h5>{{ $apropos->title_service2 }}</h5>
+                                            <p>{{ $apropos->text_service2 }}</p> 
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="about-quote">
-                                        <p>It is a long established fact that a reader will be distracted by the
-                                            content of
-                                            a page when looking at its reader for the long words layout.</p>
+                                        <p>{{ $apropos->quote }}</p>
                                         <i class="far fa-quote-right"></i>
                                     </div>
                                 </div>
@@ -165,13 +164,10 @@
                         <div class="choose-content-info">
                             <div class="site-heading mb-0">
                                 <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> CURSUS SCOLAIRE</span>
-                                <h2 class="site-title text-white mb-10">Un parcours <span>d’excellence</span> pour <span>grandir</span> en <span>confiance</span>!</h2>
+                                <h2 class="site-title text-white mb-10">{{ $cursusScolaire->title }}</h2>
 
 
-                                <p class="text-white">
-                                Aux écoles AL Baraime, de la maternelle au lycée, l’enseignement et l’apprentissage se font conformément au
-programme et aux exigences du Ministère de l’Education Nationale et des Sports, pour tous les cycles et à tous
-les niveaux. Découvrez notre cursus pédagogique…                                </p>
+                                <p class="text-white">{{ $cursusScolaire->description }}</p>
                             </div>
                             <div class="choose-content-wrap">
                                 <div class="row g-4">
@@ -181,7 +177,7 @@ les niveaux. Découvrez notre cursus pédagogique…                            
                                                 <img src="{{ asset('assets/img/icon/teacher.svg') }}" alt="">
                                             </div>
                                             <div class="choose-item-info">
-                                                <p><b>Préscolaire</b></p>
+                                                <p><b>{{ $cursusScolaire->service1 }}</b></p>
                                             </div>
                                         </div>
                                     </div>
@@ -191,7 +187,7 @@ les niveaux. Découvrez notre cursus pédagogique…                            
                                                 <img src="{{ asset('assets/img/icon/course-material.svg') }}" alt="">
                                             </div>
                                             <div class="choose-item-info">
-                                                <p><b>Primaire</b></p>
+                                                <p><b>{{ $cursusScolaire->service2 }}</b></p>
                                             </div>
                                         </div>
                                     </div>
@@ -201,7 +197,7 @@ les niveaux. Découvrez notre cursus pédagogique…                            
                                                 <img src="{{ asset('assets/img/icon/teacher-2.svg') }}" alt="">
                                             </div>
                                             <div class="choose-item-info">
-                                                <p><b>Collège</b></p>
+                                                <p><b>{{ $cursusScolaire->service3 }}</b></p>
                                             </div>
                                         </div>
                                     </div>
@@ -211,7 +207,7 @@ les niveaux. Découvrez notre cursus pédagogique…                            
                                                 <img src="{{ asset('assets/img/icon/online-course.svg') }}" alt="">
                                             </div>
                                             <div class="choose-item-info">
-                                                 <p><b>Lycée</b></p>
+                                                 <p><b>{{ $cursusScolaire->service4 }}</b></p>
                                             </div>
                                         </div>
                                     </div>
@@ -306,11 +302,10 @@ les niveaux. Découvrez notre cursus pédagogique…                            
                 <div class="row align-items-center">
                     <div class="col-lg-6 ms-lg-auto">
                         <div class="cta-content mt-0">
-                            <h1 class="text-center">Inscriptions & Réinscriptions</h1>
+                            <h1 class="text-center">{{ $reinscription->title }}</h1>
                             </br>
                             </br>
-                            <p>- Pour les nouveaux élèves souhaitant s’inscrire aux écoles ALBARAIME, veuillez remplir le formulaire de passation de test en cliquant sur l’école correspondante</p>
-
+                            <p> {{ $reinscription->description }} </p>
                             <div class="cta-btn">
                                 <a href="#" class="theme-btn"> S'inscrire<i class="fas fa-arrow-right-long"></i></a>
                             </div>
@@ -329,8 +324,8 @@ les niveaux. Découvrez notre cursus pédagogique…                            
                 <div class="col-lg-6 mx-auto">
                     <div class="site-heading text-center">
                         <span class="site-title-tagline"><i class="far fa-book-open-reader"></i>  </span>
-                        <h2 class="site-title">Programmes <span>Multidisciplinaires</span></h2>
-                        <p>Les élèves exploreront divers connaissances tels que les sciences, les arts et bien plus encore.</p>
+                        <h2 class="site-title">{{ $programme->title }}</h2>
+                        <p>{{ $programme->description }}</p>
                     </div>
                 </div>
             </div>
@@ -341,7 +336,7 @@ les niveaux. Découvrez notre cursus pédagogique…                            
                             <img src="{{ asset('assets/img/icon/monitor.svg') }}" alt="">
                         </div>
                         <div class="department-info">
-                            <h4 class="department-title"><a href="#">Sciences en français</a></h4>
+                            <h4 class="department-title"><a href="#">{{ $programme->programme1 }}</a></h4>
                         </div>
                     </div>
                 </div>
@@ -351,7 +346,7 @@ les niveaux. Découvrez notre cursus pédagogique…                            
                             <img src="{{ asset('assets/img/icon/human.svg') }}" alt="">
                         </div>
                         <div class="department-info">
-                            <h4 class="department-title"><a href="#">Calcul mental</a></h4>
+                            <h4 class="department-title"><a href="#">{{ $programme->programme2 }}</a></h4>
                         </div>
                     </div>
                 </div>
@@ -361,7 +356,7 @@ les niveaux. Découvrez notre cursus pédagogique…                            
                             <img src="{{ asset('assets/img/icon/data.svg') }}" alt="">
                         </div>
                         <div class="department-info">
-                            <h4 class="department-title"><a href="#">Informatique</a></h4>
+                            <h4 class="department-title"><a href="#">{{ $programme->programme3 }}</a></h4>
                         </div>
                     </div>
                 </div>
@@ -371,7 +366,7 @@ les niveaux. Découvrez notre cursus pédagogique…                            
                             <img src="{{ asset('assets/img/icon/acting.svg') }}" alt="">
                         </div>
                         <div class="department-info">
-                            <h4 class="department-title"><a href="#">Théâtre</a></h4>
+                            <h4 class="department-title"><a href="#">{{ $programme->programme4 }}</a></h4>
                         </div>
                     </div>
                 </div>
@@ -381,7 +376,7 @@ les niveaux. Découvrez notre cursus pédagogique…                            
                             <img src="{{ asset('assets/img/icon/information.svg') }}" alt="">
                         </div>
                         <div class="department-info">
-                            <h4 class="department-title"><a href="#">Activité physique</a></h4>
+                            <h4 class="department-title"><a href="#">{{ $programme->programme5 }}</a></h4>
                         </div>
                     </div>
                 </div>
@@ -391,7 +386,7 @@ les niveaux. Découvrez notre cursus pédagogique…                            
                             <img src="{{ asset('assets/img/icon/art.svg') }}" alt="">
                         </div>
                         <div class="department-info">
-                            <h4 class="department-title"><a href="#">Art</a></h4>
+                            <h4 class="department-title"><a href="#">{{ $programme->programme6 }}</a></h4>
                         </div>
                     </div>
                 </div> 
@@ -408,8 +403,8 @@ les niveaux. Découvrez notre cursus pédagogique…                            
                 <div class="col-lg-6 mx-auto">
                     <div class="site-heading text-center">
                         <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> TEMOIGNAGES</span>
-                        <h2 class="site-title text-white">Nos heureux <span>parents</span></h2>
-                        <p class="text-white">C’est ce qu’ont dit les parents de nos élèves.</p>
+                        <h2 class="site-title text-white">{{ $temoignage->title }}</h2>
+                        <p class="text-white">{{ $temoignage->description }}</p>
                     </div>
                 </div>
             </div>
@@ -423,14 +418,14 @@ les niveaux. Découvrez notre cursus pédagogique…                            
                         <i class="fas fa-star"></i>
                     </div>
                     <div class="testimonial-quote">
-                        <p> Les Écoles Albaraime Privée est un lieu où l’apprentissage et le plaisir se rejoignent harmonieusement.</p>
+                        <p> {{ $temoignage->temoignage1 }} </p>
                     </div>
                     <div class="testimonial-content">
                         <div class="testimonial-author-img">
                             <img src="{{ asset('assets/img/testimonial/01.jpg') }}" alt="">
                         </div>
                         <div class="testimonial-author-info">
-                            <h4>Mr X</h4> 
+                            <h4>{{ $temoignage->nom1 }}</h4> 
                         </div>
                     </div>
                     <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
@@ -444,14 +439,14 @@ les niveaux. Découvrez notre cursus pédagogique…                            
                         <i class="fas fa-star"></i>
                     </div>
                     <div class="testimonial-quote">
-                        <p>Les enseignants dévoués et passionnés guident les élèves vers l’excellence, et les activités parascolaires sont variées et stimulantes.</p>
+                        <p> {{ $temoignage->temoignage2 }} </p>
                     </div>
                     <div class="testimonial-content">
                         <div class="testimonial-author-img">
                             <img src="{{ asset('assets/img/testimonial/02.jpg') }}" alt="">
                         </div>
                         <div class="testimonial-author-info">
-                            <h4>Mme X</h4> 
+                            <h4>{{ $temoignage->nom2 }}</h4> 
                         </div>
                     </div>
                     <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
@@ -465,14 +460,35 @@ les niveaux. Découvrez notre cursus pédagogique…                            
                         <i class="fas fa-star"></i>
                     </div>
                     <div class="testimonial-quote">
-                        <p>L’atmosphère chaleureuse et bienveillante de l’école favorise l’épanouissement des jeunes esprits.</p>
+                        <p> {{ $temoignage->temoignage3 }} </p>
                     </div>
                     <div class="testimonial-content">
                         <div class="testimonial-author-img">
                             <img src="{{ asset('assets/img/testimonial/03.jpg') }}" alt="">
                         </div>
                         <div class="testimonial-author-info">
-                            <h4>Mr X</h4> 
+                            <h4>{{ $temoignage->nom3 }}</h4> 
+                        </div>
+                    </div>
+                    <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
+                </div> 
+                <div class="testimonial-item">
+                    <div class="testimonial-rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-quote">
+                        <p> {{ $temoignage->temoignage4 }} </p>
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-author-img">
+                            <img src="{{ asset('assets/img/testimonial/04.jpg') }}" alt="">
+                        </div>
+                        <div class="testimonial-author-info">
+                            <h4>{{ $temoignage->nom4 }}</h4> 
                         </div>
                     </div>
                     <span class="testimonial-quote-icon"><i class="far fa-quote-right"></i></span>
