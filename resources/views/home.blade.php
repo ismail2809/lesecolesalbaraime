@@ -3,6 +3,6 @@
 
 @section('content')
 
-@include('layout.partial.main') 
+@include('layout.partial.main')
 
 @endsection

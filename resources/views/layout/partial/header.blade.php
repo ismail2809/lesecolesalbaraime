@@ -91,8 +91,9 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="{{ url('/services') }}" data-bs-toggle="dropdown">Services</a>
                                 <ul class="dropdown-menu fade-down">
-                                    <li><a class="dropdown-item" href="{{ url('/fournitures') }}"> Fournitures</a></li>
-                                    <li><a class="dropdown-item" href="{{ url('/transport') }}"> Transport</a></li>
+                                    <li><a class="dropdown-item" href="{{ url('/controles-continus') }}">Controles Continus</a></li>
+                                    <li><a class="dropdown-item" href="{{ url('/fourniture') }}"> Fournitures</a></li>
+                                    <li><a class="dropdown-item" href="{{ url('/transport') }}"> Transports</a></li>
                                     <li><a class="dropdown-item" href="{{ url('/cafeteria') }}"> Caféteria</a></li>
                                     <li><a class="dropdown-item" href="{{ url('/activites-parascolaire') }}">Activités parascolaire </a></li>
                                 </ul>

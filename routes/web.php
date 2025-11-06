@@ -12,7 +12,8 @@ use App\Http\Controllers\TransportController;
 use App\Http\Controllers\FournitureController;
 use App\Http\Controllers\Albaraime1Controller;
 use App\Http\Controllers\Albaraime2Controller;
-use App\Http\Controllers\CursusScolaireController; 
+use App\Http\Controllers\CursusScolaireController;
+use App\Http\Controllers\ControleContinuController;
 
 Route::get('/linkstorage', function () {
     Artisan::call('storage:link');
@@ -23,9 +24,8 @@ Route::get('/', [LandingController::class, 'index']);
 Route::get('/albaraime1', [Albaraime1Controller::class, 'index']);
 Route::get('/albaraime2', [Albaraime2Controller::class, 'index']);
 
-Route::get('/ControlesContinus', [ControleContinuController::class, 'index']);
-
-Route::get('/fournitures', [FournitureController::class, 'index']);
+Route::get('/controles-continus', [ControleContinuController::class, 'index']);
+Route::get('/fourniture', [FournitureController::class, 'index']);
 Route::get('/transport', [TransportController::class, 'index']);
 Route::get('/cafeteria', [CafeteriaController::class, 'index']);
 Route::get('/activites-parascolaire', [ActiviteController::class, 'index']);

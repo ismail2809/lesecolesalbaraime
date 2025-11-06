@@ -153,21 +153,22 @@ class ControleContinuResource extends Resource
                         Forms\Components\FileUpload::make('file')
                             ->label('Fichier du Contrôle')
                             ->directory('controles-continus')
-                            ->acceptedFileTypes(['application/pdf', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'])
-                            ->maxSize(100480)
+                            ->acceptedFileTypes([
+                                'application/pdf',
+                                'application/msword',
+                                'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+                            ])
+                            ->maxSize(20480) // 20 MB en KB
                             ->helperText('Formats acceptés: PDF, DOC, DOCX (Max: 20 MB)')
-                            ->downloadable()
-                            ->openable()
-                            ->previewable()
+                            ->preserveFilenames()
                             ->validationMessages([
                                 'max' => 'Le fichier ne doit pas dépasser 20 MB.',
-                                'mimes' => 'Le fichier doit être un PDF ou Excel (XLS, XLSX).',
+                                'mimes' => 'Le fichier doit être un PDF ou Word (DOC, DOCX).',
                                 'uploaded' => 'Le fichier n\'a pas pu être téléchargé. Vérifiez la taille (max 20 MB) et votre configuration PHP.',
                             ])
                             ->disk('public')
                             ->visibility('public')
                             ->columnSpanFull(),
-                            
                         Forms\Components\TextInput::make('title_btn')
                             ->label('Texte du Bouton')
                             ->placeholder('Ex: Télécharger, Voir le sujet...')
