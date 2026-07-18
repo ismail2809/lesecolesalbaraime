@@ -303,7 +303,7 @@
                             </br>
                             <p> {{ $reinscription->description }} </p>
                             <div class="cta-btn">
-                                <a href="#" class="theme-btn"> S'inscrire<i class="fas fa-arrow-right-long"></i></a>
+                                <a href="{{ url('/preinscription') }}" class="theme-btn"> S'inscrire<i class="fas fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                     </div>

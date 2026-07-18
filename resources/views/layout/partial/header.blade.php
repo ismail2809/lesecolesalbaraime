@@ -101,13 +101,32 @@
                             <li class="nav-item"><a class="nav-link" href="{{ url('/galeries') }}">Galerie</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/blogs') }}">Blog</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/contact') }}">Contact</a></li>
+                            <!-- boutons mobile uniquement -->
+                            <li class="nav-item d-lg-none mt-2">
+                                <a href="{{ url('/preinscription') }}" class="theme-btn btn-preinscription w-100 text-center" style="display:block;">
+                                    <i class="far fa-file-pen"></i> Préinscription</a>
+                            </li>
+                            <li class="nav-item d-lg-none mt-2 mb-2">
+                                <a href="https://albaraime.fadaa.ma/login" target="_blank" class="theme-btn w-100 text-center" style="display:block;">
+                                    <span class="fal fa-pencil"></span> EXTRANET</a>
+                            </li>
                         </ul>
-                        <div class="nav-right"> 
-                            <div class="nav-right-btn mt-2">
-                                <a href="https://albaraime.fadaa.ma/login" target="_blank" class="theme-btn">
-                                    <span class="fal fa-pencil"></span>EXTRANET</a>
+                        <!-- boutons desktop uniquement -->
+                        <div class="nav-right d-none d-lg-flex">
+                            <div class="nav-right-btn">
+                                <a href="{{ url('/preinscription') }}" class="theme-btn btn-preinscription">
+                                    <i class="far fa-file-pen"></i> Préinscription</a>
+                            </div>
+                            <div class="nav-right-btn">
+                                <a href="https://albaraime.fadaa.ma/login" target="_blank" class="theme-btn btn-extranet">
+                                    <span class="fal fa-pencil"></span> EXTRANET</a>
                             </div>
                         </div>
+                        <style>
+                            .btn-preinscription { background: var(--theme-color) !important; }
+                            .btn-preinscription::before { background: var(--theme-color2) !important; }
+                            .btn-extranet::before { background: var(--theme-color2) !important; }
+                        </style>
                     </div>
                 </div>
             </nav>

@@ -13,7 +13,8 @@ use App\Http\Controllers\FournitureController;
 use App\Http\Controllers\Albaraime1Controller;
 use App\Http\Controllers\Albaraime2Controller;
 use App\Http\Controllers\CursusScolaireController;
-use App\Http\Controllers\ControleContinuController;
+use App\Http\Conotrollers\ControleContinuController;
+use App\Http\Controllers\PreinscriptionController;
 
 Route::get('/linkstorage', function () {
     Artisan::call('storage:link');
@@ -42,6 +43,9 @@ Route::post('/form_contact', [ContactController::class, 'form_contact']);
 Route::get('/blogs', [BlogController::class, 'index']);
 Route::get('/blog/{id}', [BlogController::class, 'show']);
 
+
+Route::get('/preinscription', [PreinscriptionController::class, 'index']);
+Route::post('/preinscription', [PreinscriptionController::class, 'store']);
 
 Route::get('/politique-de-confidentialite', function () {
     return view('politique.politique');

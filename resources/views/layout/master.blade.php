@@ -20,7 +20,8 @@
     <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/sweetalert2.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/sweetalert2.all.min.js') }}"> 
+    <link rel="stylesheet" href="{{ asset('assets/css/sweetalert2.all.min.js') }}">
+    @stack('styles')
 
 </head>
 
@@ -65,7 +66,8 @@
     <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('assets/js/counter-up.js') }}"></script>
     <script src="{{ asset('assets/js/wow.min.js') }}"></script>
-    <script src="{{ asset('assets/js/main.js') }}"></script>  
+    <script src="{{ asset('assets/js/main.js') }}"></script>
+    @stack('scripts')
 
 </body>
 </html>

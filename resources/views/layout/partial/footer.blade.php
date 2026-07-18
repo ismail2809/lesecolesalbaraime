@@ -39,6 +39,7 @@
                                 <li><a href="{{ url('/fournitures') }}"><i class="fas fa-caret-right"></i> Fournitures </a></li>
                                 <li><a href="{{ url('/galeries') }}"><i class="fas fa-caret-right"></i> Galerie</a></li>
                                 <li><a href="{{ url('/blogs') }}"><i class="fas fa-caret-right"></i> Blogs</a></li>
+                                <li><a href="{{ url('/preinscription') }}"><i class="fas fa-caret-right"></i> Préinscription</a></li>
                                 <li><a href="{{ url('/contact') }}"><i class="fas fa-caret-right"></i> Contact</a></li>
                                 <li><a href="{{ url('/politique-de-confidentialite') }}"><i class="fas fa-caret-right"></i> Politique De Confidentialité </a></li>
                             </ul>
