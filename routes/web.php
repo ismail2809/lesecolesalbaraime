@@ -13,7 +13,7 @@ use App\Http\Controllers\FournitureController;
 use App\Http\Controllers\Albaraime1Controller;
 use App\Http\Controllers\Albaraime2Controller;
 use App\Http\Controllers\CursusScolaireController;
-use App\Http\Conotrollers\ControleContinuController;
+use App\Http\Controllers\ControleContinuController;
 use App\Http\Controllers\PreinscriptionController;
 
 Route::get('/linkstorage', function () {
