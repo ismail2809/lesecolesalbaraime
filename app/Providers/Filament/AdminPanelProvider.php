@@ -9,6 +9,7 @@ use Filament\Pages;
 use Filament\Panel;
 use Filament\PanelProvider;
 use Filament\Support\Colors\Color;
+use Filament\FontProviders\GoogleFontProvider;
 use Filament\Widgets;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
 use Illuminate\Cookie\Middleware\EncryptCookies;
@@ -27,9 +28,14 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
+            ->brandName('Les Écoles Albaraime')
             ->colors([
-                'primary' => Color::Amber,
+                'primary' => Color::Sky,
+                'gray'    => Color::Slate,
             ])
+            ->font('Inter', provider: GoogleFontProvider::class)
+            ->sidebarCollapsibleOnDesktop()
+            ->sidebarWidth('16rem')
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\\Filament\\Resources')
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\\Filament\\Pages')
             ->pages([
@@ -37,8 +43,10 @@ class AdminPanelProvider extends PanelProvider
             ])
             ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\\Filament\\Widgets')
             ->widgets([
-                Widgets\AccountWidget::class,
-                //Widgets\FilamentInfoWidget::class,
+                \App\Filament\Widgets\WelcomeWidget::class,
+                \App\Filament\Widgets\ContactMessagesWidget::class,
+                \App\Filament\Widgets\PreinscriptionWidget::class,
+                \App\Filament\Widgets\ActivityLogWidget::class,
             ])
             ->middleware([
                 EncryptCookies::class,
