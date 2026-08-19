@@ -60,13 +60,16 @@ class GalerieResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('title')->label('Titre'),
+                Tables\Columns\TextColumn::make('order')->label('#')->sortable(),
                 Tables\Columns\ImageColumn::make('image')->label('Image'),
+                Tables\Columns\TextColumn::make('title')->label('Titre'),
                 Tables\Columns\TextColumn::make('created_at')->label('Date crée')
                     ->dateTime()
                     ->sortable()
-                    ->toggleable(isToggledHiddenByDefault: true), 
+                    ->toggleable(isToggledHiddenByDefault: true),
             ])
+            ->defaultSort('order', 'desc')
+            ->reorderable('order')
             ->filters([
                 //
             ])
