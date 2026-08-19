@@ -57,14 +57,14 @@ class ContactResource extends Resource
                                 ->label('Email')
                                 ->email()
                                 ->required(),
-                            TextArea::make('subject')
+                            TextInput::make('subject')
                                 ->label('Sujet')
                                 ->string()
-                                ->required(),  
-                            TextInput::make('message')
+                                ->required(),
+                            TextArea::make('message')
                                 ->label('Message')
                                 ->string()
-                                ->required(), 
+                                ->required(),
                         ])
                     ]),
         ])->columns(1);
