@@ -1,0 +1,8 @@
+*
+!.gitignore
+!uploads/
+!uploads/**
+!uploads-old/
+!uploads-old/**
+!controles-continus/
+!controles-continus/**
