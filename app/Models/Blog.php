@@ -11,6 +11,8 @@ class Blog extends Model
 
     protected $fillable = ['categorie_id', 'title', 'slug', 'content', 'date', 'image', 'is_published'];
 
+    public array $imageFields = ['image'];
+
     public function categories()
     {
         return $this->belongsTo('App\Models\Categorie','categorie_id');

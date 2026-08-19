@@ -9,4 +9,6 @@ class Reinscription extends Model
 { 
     use HasFactory;
     protected $fillable = ['title','description','image','alt_image'];
+
+    public array $imageFields = ['image'];
 }

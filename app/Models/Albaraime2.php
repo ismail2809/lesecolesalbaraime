@@ -13,4 +13,6 @@ class Albaraime2 extends Model
  
     protected $fillable = ['nom', 'profile', 'description', 'title', 'content', 'image', 'alt_image'];
 
+    public array $imageFields = ['image'];
+
 }

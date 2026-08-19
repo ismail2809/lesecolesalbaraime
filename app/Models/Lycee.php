@@ -11,4 +11,6 @@ class Lycee extends Model
 	protected $table = 'lycees'; 
     protected $fillable = ['niveau', 'description', 'title', 'content', 'image', 'alt_image'];
 
+    public array $imageFields = ['image'];
+
 }

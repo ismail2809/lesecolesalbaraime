@@ -10,5 +10,7 @@ class Galerie extends Model
     use HasFactory;
 
     protected $fillable = ['title','image'];
+
+    public array $imageFields = ['image'];
     
 }

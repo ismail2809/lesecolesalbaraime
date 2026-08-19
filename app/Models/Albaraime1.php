@@ -11,4 +11,6 @@ class Albaraime1 extends Model
 	protected $table = 'albaraime1';
     protected $fillable = ['nom', 'profile', 'description', 'title', 'content', 'image', 'alt_image'];
 
+    public array $imageFields = ['image'];
+
 }

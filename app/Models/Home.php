@@ -9,4 +9,6 @@ class Home extends Model
 {
     use HasFactory;
     protected $fillable = ['title','second_title','description','image1','alt_image1','image2','alt_image2','image3','alt_image3','button_text','button_link'];
+
+    public array $imageFields = ['image1', 'image2', 'image3'];
 }

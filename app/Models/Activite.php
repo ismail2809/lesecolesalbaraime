@@ -12,4 +12,6 @@ class Activite extends Model
  
     protected $fillable = ['content', 'description', 'image1', 'alt_image1',  'image2', 'alt_image2', 'image3', 'alt_image3'];
 
+    public array $imageFields = ['image1', 'image2', 'image3'];
+
 }

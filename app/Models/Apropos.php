@@ -12,4 +12,6 @@ class Apropos extends Model
 
     protected $fillable = ['title','description','quote','qualite','title_service1','text_service1','title_service2','text_service2', 'is_published','image1','alt_image1','image2','alt_image2','image3','alt_image3'];
 
+    public array $imageFields = ['image1', 'image2', 'image3'];
+
 }

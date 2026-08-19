@@ -11,4 +11,6 @@ class College extends Model
 	protected $table = 'colleges'; 
     protected $fillable = ['niveau', 'description', 'title', 'content', 'image', 'alt_image'];
 
+    public array $imageFields = ['image'];
+
 }

@@ -11,4 +11,6 @@ class Maternelle extends Model
 	protected $table = 'maternelles'; 
     protected $fillable = ['niveau', 'description', 'title', 'content', 'image', 'alt_image'];
 
+    public array $imageFields = ['image'];
+
 }
