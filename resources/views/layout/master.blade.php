@@ -19,9 +19,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/sweetalert2.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/sweetalert2.all.min.js') }}">
-    @stack('styles')
+@stack('styles')
 
 </head>
 
