@@ -46,7 +46,6 @@ class AdminPanelProvider extends PanelProvider
                 \App\Filament\Widgets\WelcomeWidget::class,
                 \App\Filament\Widgets\ContactMessagesWidget::class,
                 \App\Filament\Widgets\PreinscriptionWidget::class,
-                \App\Filament\Widgets\ActivityLogWidget::class,
             ])
             ->middleware([
                 EncryptCookies::class,
