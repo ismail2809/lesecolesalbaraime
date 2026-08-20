@@ -23,7 +23,7 @@ FileUpload::make('attachment')
 
 <AutoScreenshot name="forms/fields/file-upload/simple" alt="File upload" version="3.x" />
 
-> Filament also supports [`spatie/laravel-medialibrary`](https://github.com/spatie/laravel-medialibrary). See our [plugin documentation](/plugins/filament-spatie-media-library) for more information.
+> Filament also supports [`spatie/laravel-medialibrary`](https://github.com/spatie/laravel-medialibrary). See our [plugin documentation](https://filamentphp.com/plugins/filament-spatie-media-library) for more information.
 
 ## Configuring the storage disk and directory
 
@@ -69,6 +69,20 @@ class Message extends Model
     // ...
 }
 ```
+
+### Controlling the maximum parallel uploads
+
+You can control the maximum number of parallel uploads using the `maxParallelUploads()` method:
+
+```php
+use Filament\Forms\Components\FileUpload;
+
+FileUpload::make('attachments')
+    ->multiple()
+    ->maxParallelUploads(1)
+```
+
+This will limit the number of parallel uploads to `1`. If unset, we'll use the [default FilePond value](https://pqina.nl/filepond/docs/api/instance/properties/#core-properties) which is `2`.
 
 ## Controlling file names
 
@@ -398,6 +412,17 @@ FileUpload::make('attachment')
     ->deletable(false)
 ```
 
+## Preventing pasting files
+
+You can disable the ability to paste files via the clipboard using the `pasteable(false)` method:
+
+```php
+use Filament\Forms\Components\FileUpload;
+
+FileUpload::make('attachment')
+    ->pasteable(false)
+```
+
 ## Prevent file information fetching
 
 While the form is loaded, it will automatically detect whether the files exist, what size they are, and what type of files they are. This is all done on the backend. When using remote storage with many files, this can be time-consuming. You can use the `fetchFileInformation(false)` method to disable this feature:
@@ -446,6 +471,24 @@ FileUpload::make('image')
     ->image()
 ```
 
+#### Custom MIME type mapping
+
+Some file formats may not be recognized correctly by the browser when uploading files. Filament allows you to manually define MIME types for specific file extensions using the `mimeTypeMap()` method:
+
+```php
+use Filament\Forms\Components\FileUpload;
+
+FileUpload::make('designs')
+    ->acceptedFileTypes([
+        'x-world/x-3dmf',
+        'application/vnd.sketchup.skp',
+    ])
+    ->mimeTypeMap([
+        '3dm' => 'x-world/x-3dmf',
+        'skp' => 'application/vnd.sketchup.skp',
+    ]);
+```
+
 ### File size validation
 
 You may also restrict the size of uploaded files in kilobytes:
@@ -475,7 +518,7 @@ Livewire also validates file size before uploading. To publish the Livewire conf
 php artisan livewire:publish --config
 ```
 
-The [max upload size can be adjusted in the `rules` key of `temporary_file_upload`]((https://livewire.laravel.com/docs/uploads#global-validation)). In this instance, KB are used in the rule, and 120MB is 122880KB:
+The [max upload size can be adjusted in the `rules` key of `temporary_file_upload`](https://livewire.laravel.com/docs/uploads#global-validation). In this instance, KB are used in the rule, and 120MB is 122880KB:
 
 ```php
 'temporary_file_upload' => [

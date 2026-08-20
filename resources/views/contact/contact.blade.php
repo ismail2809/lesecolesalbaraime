@@ -5,7 +5,7 @@
 <main class="main">
 
 <!-- breadcrumb -->
-<div class="site-breadcrumb" style="background: url(assets/img/breadcrumb/01.jpg)">
+<div class="site-breadcrumb" style="background: url(assets/img/breadcrumb/1.webp)">
     <div class="container">
         <h2 class="breadcrumb-title">Contactez-nous</h2>
         <ul class="breadcrumb-menu">
@@ -66,7 +66,7 @@
             <div class="row">
                 <div class="col-lg-5">
                     <div class="contact-img">
-                        <img src="{{ asset('assets/img/contact/01.jpg') }}" alt="">
+                        <img src="{{ asset('assets/img/contact/01.webp') }}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-7 align-self-center">

@@ -6,7 +6,7 @@
     <main class="main">
 
         <!-- breadcrumb -->
-        <div class="site-breadcrumb" style="background: url(assets/img/breadcrumb/01.jpg)">
+        <div class="site-breadcrumb" style="background: url(assets/img/breadcrumb/1.webp)">
             <div class="container">
                 <h2 class="breadcrumb-title">Caféteria</h2>
                 <ul class="breadcrumb-menu">

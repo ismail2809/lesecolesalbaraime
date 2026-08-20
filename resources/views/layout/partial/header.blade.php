@@ -61,7 +61,7 @@
                                                     <p><a href="{{ url('/albaraime1') }}"><b>Préscolaire </b></a></p>
                                                     <div class="menu-about">
                                                         <a href="{{ url('/albaraime1') }}" class="menu-about-logo">
-                                                            <img src="{{ asset('assets/img/ecole/ALBARAIMEI.png') }}" alt="ALBARAIMEI" style="width: 450px !important">
+                                                            <img src="{{ asset('assets/img/ecole/ALBARAIMEI.webp') }}" alt="ALBARAIMEI" style="width: 450px !important">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -70,7 +70,7 @@
                                                     <p><a href="{{ url('/albaraime2') }}"><b>Préscolaire, Primaire, Collège & Lycée</b></a></p>
                                                     <div class="menu-about">
                                                         <a href="{{ url('/albaraime2') }}" class="menu-about-logo">
-                                                            <img src="{{ asset('assets/img/ecole/ALBARAIMEII.png') }}" alt="ALBARAIMEII" style="width: 450px !important">
+                                                            <img src="{{ asset('assets/img/ecole/ALBARAIMEII.webp') }}" alt="ALBARAIMEII" style="width: 450px !important">
                                                         </a>
                                                     </div>
                                                 </div>

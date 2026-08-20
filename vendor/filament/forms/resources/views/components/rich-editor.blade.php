@@ -3,17 +3,16 @@
 
     $id = $getId();
     $statePath = $getStatePath();
+    $isDisabled = $isDisabled();
 @endphp
 
 <x-dynamic-component :component="$getFieldWrapperView()" :field="$field">
-    @if ($isDisabled())
+    @if ($isDisabled)
         <div
-            x-data="{
-                state: $wire.{{ $applyStateBindingModifiers("\$entangle('{$statePath}')") }},
-            }"
-            x-html="state"
             class="fi-fo-rich-editor fi-disabled prose block w-full max-w-none rounded-lg bg-gray-50 px-3 py-3 text-gray-500 shadow-sm ring-1 ring-gray-950/10 dark:prose-invert dark:bg-transparent dark:text-gray-400 dark:ring-white/10 sm:text-sm"
-        ></div>
+        >
+            {!! str($getState())->sanitizeHtml() !!}
+        </div>
     @else
         <x-filament::input.wrapper
             :valid="! $errors->has($statePath)"
@@ -24,15 +23,14 @@
         >
             <div
                 @if (FilamentView::hasSpaMode())
-                    {{-- format-ignore-start --}}ax-load="visible || event (ax-modal-opened)"{{-- format-ignore-end --}}
+                    {{-- format-ignore-start --}}x-load="visible || event (ax-modal-opened)"{{-- format-ignore-end --}}
                 @else
-                    ax-load
+                    x-load
                 @endif
-                ax-load-src="{{ \Filament\Support\Facades\FilamentAsset::getAlpineComponentSrc('rich-editor', 'filament/forms') }}"
+                x-load-src="{{ \Filament\Support\Facades\FilamentAsset::getAlpineComponentSrc('rich-editor', 'filament/forms') }}"
                 x-data="richEditorFormComponent({
                             state: $wire.{{ $applyStateBindingModifiers("\$entangle('{$statePath}')", isOptimisticallyLive: false) }},
                         })"
-                x-ignore
                 x-on:trix-attachment-add="
                     if (! $event.attachment.file) return
 
@@ -378,6 +376,11 @@
                     @endif
                     x-ref="trix"
                     wire:ignore
+                    wire:key="{{ $this->getId() }}.{{ $statePath }}.{{ $field::class }}.{{
+                        substr(md5(serialize([
+                            $isDisabled,
+                        ])), 0, 64)
+                    }}"
                     @if ($isGrammarlyDisabled())
                         data-gramm="false"
                         data-gramm_editor="false"

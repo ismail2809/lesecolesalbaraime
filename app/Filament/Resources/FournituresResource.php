@@ -51,8 +51,19 @@ class FournituresResource extends Resource
                         Forms\Components\TextInput::make('niveau')
                             ->label('Niveau')
                             ->required()
-                            ->hint('exemple du niveau : Maternelle'), 
-                    ]) 
+                            ->hint('exemple du niveau : Maternelle'),
+                        Forms\Components\Select::make('annee')
+                            ->label('Année scolaire')
+                            ->required()
+                            ->options(function () {
+                                $years = [];
+                                for ($y = date('Y') + 1; $y >= 2023; $y--) {
+                                    $years[$y] = $y;
+                                }
+                                return $years;
+                            })
+                            ->default(date('Y')),
+                    ])
                 ])->columnSpan(['lg' => 1]),   
                 Group::make()
                 ->schema([
@@ -86,12 +97,17 @@ class FournituresResource extends Resource
     {
         return $table
             ->columns([
+                Tables\Columns\TextColumn::make('annee')->label('Année')->sortable()->toggleable(),
                 Tables\Columns\TextColumn::make('title')->label('Titre')->searchable()->sortable()->toggleable(),
                 Tables\Columns\TextColumn::make('niveau')->label('Niveau')->searchable()->sortable()->toggleable(),
                 Tables\Columns\TextColumn::make('created_at')->label('Date de création')->searchable()->sortable()->toggleable(),
             ])
             ->filters([
-                //
+                Tables\Filters\SelectFilter::make('annee')
+                    ->label('Année')
+                    ->options(function () {
+                        return Fourniture::query()->distinct()->orderByDesc('annee')->pluck('annee', 'annee')->toArray();
+                    }),
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),

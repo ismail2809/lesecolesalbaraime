@@ -5,7 +5,7 @@
     <main class="main">
 
         <!-- breadcrumb -->
-        <div class="site-breadcrumb" style="background: url({{ asset('assets/img/breadcrumb/01.jpg') }})">
+        <div class="site-breadcrumb" style="background: url({{ asset('assets/img/breadcrumb/1.webp') }})">
             <div class="container">
                 <h2 class="breadcrumb-title">Blog</h2>
                 <ul class="breadcrumb-menu">
@@ -36,8 +36,8 @@
                                         </div> 
                                     </div>
                                     <div class="blog-details">
-                                        <h3 class="blog-details-title mb-20">{{ $blog->title }}</h3>
-                                        <p class="mb-10">
+                                        <h3 class="blog-details-title mb-20" dir="auto">{{ $blog->title }}</h3>
+                                        <p class="mb-10" dir="auto">
                                             {{ $blog->content }}
                                         </p> 
  

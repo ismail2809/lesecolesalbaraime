@@ -10,6 +10,6 @@ class Fourniture extends Model
     use HasFactory;
 	protected $table = 'fournitures';
  
-    protected $fillable = ['title', 'niveau', 'file', 'title', 'title_btn'];
+    protected $fillable = ['title', 'niveau', 'annee', 'file', 'title_btn'];
 
 }

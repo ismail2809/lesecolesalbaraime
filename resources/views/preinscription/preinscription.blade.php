@@ -5,7 +5,7 @@
 <main class="main">
 
     {{-- breadcrumb --}}
-    <div class="site-breadcrumb" style="background: url({{ asset('assets/img/breadcrumb/01.jpg') }})">
+    <div class="site-breadcrumb" style="background: url({{ asset('assets/img/breadcrumb/1.webp') }})">
         <div class="container">
             <h2 class="breadcrumb-title">Préinscription</h2>
             <ul class="breadcrumb-menu">
@@ -75,7 +75,7 @@
                 <div class="row">
                     <div class="col-lg-5 d-none d-lg-flex align-items-center">
                         <div class="contact-img">
-                            <img src="{{ asset('assets/img/contact/01.jpg') }}" alt="Préinscription Albaraime">
+                            <img src="{{ asset('assets/img/contact/01.webp') }}" alt="Préinscription Albaraime">
                         </div>
                     </div>
                     <div class="col-lg-7 align-self-center">

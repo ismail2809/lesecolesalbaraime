@@ -70,6 +70,11 @@ class ViewRecord extends Page
         abort_unless(static::getResource()::canView($this->getRecord()), 403);
     }
 
+    public function hydrate(): void
+    {
+        $this->authorizeAccess();
+    }
+
     protected function hasInfolist(): bool
     {
         return (bool) count($this->getInfolist('infolist')->getComponents());
@@ -105,10 +110,12 @@ class ViewRecord extends Page
      */
     public function refreshFormData(array $attributes): void
     {
-        $this->data = [
+        $data = [
             ...$this->data,
             ...Arr::only($this->getRecord()->attributesToArray(), $attributes),
         ];
+
+        $this->form->fill($data);
     }
 
     /**

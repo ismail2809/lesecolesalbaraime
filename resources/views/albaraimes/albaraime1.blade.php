@@ -4,7 +4,7 @@
 @section('content')
 <main class="main">
        <!-- breadcrumb -->
-        <div class="site-breadcrumb" style="background: url(assets/img/slider/slider-1.jpg)">
+        <div class="site-breadcrumb" style="background: url(assets/img/slider/slider-1.webp)">
             <div class="container">
                 <h2 class="breadcrumb-title">AlBaraime 1</h2>
                 <ul class="breadcrumb-menu">

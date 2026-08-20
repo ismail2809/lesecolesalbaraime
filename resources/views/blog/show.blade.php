@@ -13,7 +13,7 @@
                 <a href="#" class="text-reset" rel="category">{{ $blog->categories->title }}</a>
                 </div>
                 <!-- /.post-category -->
-                <h1 class="display-1 mb-4 text-white">{{ $blog->title }}</h1>
+                <h1 class="display-1 mb-4 text-white" dir="auto">{{ $blog->title }}</h1>
                 <ul class="post-meta text-white">
                 <li class="post-date"><i class="uil uil-calendar-alt"></i><span>{{ $blog->created_at->format('d-m-Y') }}</span></li>
                   </ul>
@@ -39,7 +39,7 @@
                 <div class="card-body">
                     <div class="classic-view">
                     <article class="post">
-                        <div class="post-content mb-5">
+                        <div class="post-content mb-5" dir="auto">
                             <p>{!! $blog->content !!}</p>
                         </div>
                         <!-- /.post-content --> 
