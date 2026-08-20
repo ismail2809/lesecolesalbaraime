@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\View;
 use App\Models\Setting;
 use App\Models\Activite;
@@ -38,6 +39,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        if (config('app.env') === 'production') {
+            URL::forceScheme('https');
+        }
+
         // Partager la dernière configuration dans toutes les vues
         View::composer('*', function ($view) {
             $view->with('setting', Setting::latest()->first());
