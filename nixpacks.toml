@@ -1,0 +1,20 @@
+[variables]
+	UPLOAD_MAX_FILESIZE = '10M'
+	POST_MAX_SIZE = '10M'
+ 
+[phases.setup]
+	# poppler_utils fournit pdftoppm, utilisé pour convertir les PDF (attestations) en JPEG
+	nixPkgs = ['...', 'poppler_utils']
+	# Polices nécessaires au rendu : le PDF modèle (attestation_template.pdf) utilise des
+	# polices "core" non embarquées (Times, Helvetica). Sans polices installées, le serveur
+	# ne peut pas les substituer et le rendu perd le gras (voire échoue).
+	# urw-base35 fournit les clones métriquement compatibles (Nimbus Sans/Roman) + leurs gras.
+	aptPkgs = ['...', 'fontconfig', 'fonts-urw-base35', 'fonts-dejavu-core']
+	cmds = ['UPLOAD_INI_PATH=$(find /nix/store/*-php-*/lib -name php.ini -print0 | head -z -n 1 | rev | cut -c 9- | rev)/upload.ini; echo "upload_max_filesize=${UPLOAD_MAX_FILESIZE};" >> $UPLOAD_INI_PATH; echo "post_max_size=${POST_MAX_SIZE};" >> $UPLOAD_INI_PATH']
+ 
+# Nixpacks n'a pas de section [hooks] : les commandes post-déploiement doivent être
+# ajoutées à la commande de démarrage. Le préfixe ci-dessous s'exécute au lancement du
+# conteneur (donc après le build et après le montage des volumes), puis rend la main
+# à la commande de démarrage par défaut du provider PHP (prestart + php-fpm + nginx).
+[start]
+	cmd = 'cd /app && (php artisan storage:link || true) && node /assets/scripts/prestart.mjs /app/nginx.template.conf /nginx.conf && (php-fpm -y /assets/php-fpm.conf & nginx -c /nginx.conf)'
